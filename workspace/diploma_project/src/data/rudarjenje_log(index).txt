@@ -1,0 +1,7 @@
+rudarjenje
+index
+podkategorije.classify
+  load from csv count = 42, čas = 0.000 s
+  save to csv count = 42, čas = 0.000 s
+skupni čas = 0.016 s
+OK

@@ -1,0 +1,19 @@
+rudarjenje
+normirano
+podkategorije.classify
+  load from csv count = 42, čas = 0.000 s
+  save to csv count = 42, čas = 0.000 s
+uporabniki.classify
+  load from csv count = 1786, čas = 0.000 s
+  save to csv count = 1786, čas = 0.000 s
+uporabniki.(plusi,minusi)
+  load from csv count = 893, čas = 0.000 s
+  save to csv count = 893, čas = 0.015 s
+uporabniki.avg(plusi-minusi)
+  load from csv count = 893, čas = 0.000 s
+  save to csv count = 893, čas = 0.000 s
+uporabniki.avg(ocena)
+  load from csv count = 893, čas = 0.000 s
+  save to csv count = 893, čas = 0.000 s
+skupni čas = 0.031 s
+OK

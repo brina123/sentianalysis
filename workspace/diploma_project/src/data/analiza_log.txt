@@ -1,0 +1,23 @@
+trainSport.csv
+
+corpus, stop_words
+  corpus words = 78665
+  stop words = 145 
+  čas = 59 ms
+
+load all
+  corpus = 75% 13444/17777
+  clean(stop,min,max) = 6728
+  (+)=243/4004, (-)=268/7045, vsi=511/11049
+  čas = 271 ms
+
+data = 511
+iter = 1
+  čas = 11867 ms
+
+analiza (probability = 0.70)
+  method ['percentage', 'precision', 'recall', 'f1']
+  Svc [81%, 86%, 76%, 81%]
+
+skupni čas = 12207 ms
+OK

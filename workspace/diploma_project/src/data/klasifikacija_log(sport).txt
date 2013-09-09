@@ -1,0 +1,4833 @@
+trainSport.csv
+Svc
+
+corpus, stop_words
+  corpus words = 78665
+  stopwords = 145 
+  čas = 64 ms
+
+load train
+  corpus = 75% 13448/17784
+  clean(stop,min,max) = 6729
+  (+)=243/4010, (-)=268/7045, vsi=511/11055
+  čas = 3875 ms
+
+load test [0,1000]
+  load = 2894 ms
+  corpus = 73% 24416/33064
+  clean(stop,min,max) = 12217
+  data = 303 ms
+  classify 511/996
+  (+)=241/0, (-)=421/0, (N)=334/0, vsi=996/0
+  classify = 17495 ms
+  data = 996
+  save to db = 247 ms
+  čas = 20941 ms / 47496 ms
+
+load test [1000,1000]
+  load = 3959 ms
+  corpus = 74% 25043/33595
+  clean(stop,min,max) = 12823
+  data = 310 ms
+  classify 511/999
+  (+)=258/0, (-)=428/0, (N)=313/0, vsi=999/0
+  classify = 17557 ms
+  data = 999
+  save to db = 171 ms
+  čas = 21999 ms / 69496 ms
+
+load test [2000,1000]
+  load = 4081 ms
+  corpus = 74% 26136/35305
+  clean(stop,min,max) = 13501
+  data = 322 ms
+  classify 511/999
+  (+)=240/0, (-)=462/0, (N)=297/0, vsi=999/0
+  classify = 17595 ms
+  data = 999
+  save to db = 177 ms
+  čas = 22177 ms / 91674 ms
+
+load test [3000,1000]
+  load = 4921 ms
+  corpus = 74% 21113/28374
+  clean(stop,min,max) = 10775
+  data = 261 ms
+  classify 511/1000
+  (+)=188/0, (-)=471/0, (N)=341/0, vsi=1000/0
+  classify = 17493 ms
+  data = 1000
+  save to db = 178 ms
+  čas = 22855 ms / 114529 ms
+
+load test [4000,1000]
+  load = 4694 ms
+  corpus = 73% 24391/33152
+  clean(stop,min,max) = 12585
+  data = 299 ms
+  classify 511/997
+  (+)=194/0, (-)=462/0, (N)=341/0, vsi=997/0
+  classify = 17513 ms
+  data = 997
+  save to db = 215 ms
+  čas = 22721 ms / 137251 ms
+
+load test [5000,1000]
+  load = 4946 ms
+  corpus = 75% 28045/36988
+  clean(stop,min,max) = 14442
+  data = 333 ms
+  classify 511/999
+  (+)=171/0, (-)=509/0, (N)=319/0, vsi=999/0
+  classify = 17598 ms
+  data = 999
+  save to db = 239 ms
+  čas = 23118 ms / 160370 ms
+
+load test [6000,1000]
+  load = 4911 ms
+  corpus = 74% 26274/35341
+  clean(stop,min,max) = 13424
+  data = 323 ms
+  classify 511/998
+  (+)=208/0, (-)=488/0, (N)=302/0, vsi=998/0
+  classify = 17567 ms
+  data = 998
+  save to db = 250 ms
+  čas = 23054 ms / 183424 ms
+
+load test [7000,1000]
+  load = 5323 ms
+  corpus = 74% 28279/38147
+  clean(stop,min,max) = 14384
+  data = 345 ms
+  classify 511/1000
+  (+)=180/0, (-)=524/0, (N)=296/0, vsi=1000/0
+  classify = 17655 ms
+  data = 1000
+  save to db = 190 ms
+  čas = 23515 ms / 206940 ms
+
+load test [8000,1000]
+  load = 5348 ms
+  corpus = 74% 24172/32382
+  clean(stop,min,max) = 11933
+  data = 299 ms
+  classify 511/1000
+  (+)=188/0, (-)=532/0, (N)=280/0, vsi=1000/0
+  classify = 17574 ms
+  data = 1000
+  save to db = 238 ms
+  čas = 23460 ms / 230401 ms
+
+load test [9000,1000]
+  load = 5746 ms
+  corpus = 75% 26641/35235
+  clean(stop,min,max) = 13521
+  data = 312 ms
+  classify 511/998
+  (+)=174/0, (-)=550/0, (N)=274/0, vsi=998/0
+  classify = 17562 ms
+  data = 998
+  save to db = 364 ms
+  čas = 23988 ms / 254389 ms
+
+load test [10000,1000]
+  load = 5743 ms
+  corpus = 73% 23593/31945
+  clean(stop,min,max) = 12104
+  data = 302 ms
+  classify 511/999
+  (+)=201/0, (-)=444/0, (N)=354/0, vsi=999/0
+  classify = 17530 ms
+  data = 999
+  save to db = 266 ms
+  čas = 23842 ms / 278232 ms
+
+load test [11000,1000]
+  load = 6274 ms
+  corpus = 75% 29443/39203
+  clean(stop,min,max) = 14839
+  data = 348 ms
+  classify 511/1000
+  (+)=194/0, (-)=517/0, (N)=289/0, vsi=1000/0
+  classify = 17661 ms
+  data = 1000
+  save to db = 348 ms
+  čas = 24632 ms / 302865 ms
+
+load test [12000,1000]
+  load = 6241 ms
+  corpus = 74% 25009/33354
+  clean(stop,min,max) = 12936
+  data = 300 ms
+  classify 511/999
+  (+)=187/0, (-)=517/0, (N)=295/0, vsi=999/0
+  classify = 17549 ms
+  data = 999
+  save to db = 196 ms
+  čas = 24288 ms / 327153 ms
+
+load test [13000,1000]
+  load = 6384 ms
+  corpus = 75% 22609/29940
+  clean(stop,min,max) = 11508
+  data = 286 ms
+  classify 511/999
+  (+)=206/0, (-)=461/0, (N)=332/0, vsi=999/0
+  classify = 17499 ms
+  data = 999
+  save to db = 229 ms
+  čas = 24401 ms / 351554 ms
+
+load test [14000,1000]
+  load = 6338 ms
+  corpus = 75% 29505/38912
+  clean(stop,min,max) = 15028
+  data = 338 ms
+  classify 511/999
+  (+)=203/0, (-)=502/0, (N)=294/0, vsi=999/0
+  classify = 17629 ms
+  data = 999
+  save to db = 210 ms
+  čas = 24518 ms / 376072 ms
+
+load test [15000,1000]
+  load = 6848 ms
+  corpus = 74% 18472/24684
+  clean(stop,min,max) = 9223
+  data = 237 ms
+  classify 511/998
+  (+)=204/0, (-)=456/0, (N)=338/0, vsi=998/0
+  classify = 17411 ms
+  data = 998
+  save to db = 232 ms
+  čas = 24732 ms / 400805 ms
+
+load test [16000,1000]
+  load = 6775 ms
+  corpus = 74% 31842/42491
+  clean(stop,min,max) = 16511
+  data = 373 ms
+  classify 511/1000
+  (+)=172/0, (-)=492/0, (N)=336/0, vsi=1000/0
+  classify = 17697 ms
+  data = 1000
+  save to db = 253 ms
+  čas = 25099 ms / 425904 ms
+
+load test [17000,1000]
+  load = 7659 ms
+  corpus = 74% 24179/32408
+  clean(stop,min,max) = 12297
+  data = 302 ms
+  classify 511/999
+  (+)=202/0, (-)=491/0, (N)=306/0, vsi=999/0
+  classify = 17539 ms
+  data = 999
+  save to db = 260 ms
+  čas = 25763 ms / 451667 ms
+
+load test [18000,1000]
+  load = 7250 ms
+  corpus = 73% 24088/32683
+  clean(stop,min,max) = 11992
+  data = 308 ms
+  classify 511/999
+  (+)=249/0, (-)=432/0, (N)=318/0, vsi=999/0
+  classify = 17549 ms
+  data = 999
+  save to db = 248 ms
+  čas = 25357 ms / 477025 ms
+
+load test [19000,1000]
+  load = 7398 ms
+  corpus = 73% 26682/36155
+  clean(stop,min,max) = 13209
+  data = 332 ms
+  classify 511/1000
+  (+)=169/0, (-)=490/0, (N)=341/0, vsi=1000/0
+  classify = 17625 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 25654 ms / 502679 ms
+
+load test [20000,1000]
+  load = 7359 ms
+  corpus = 74% 21817/29117
+  clean(stop,min,max) = 10806
+  data = 269 ms
+  classify 511/997
+  (+)=263/0, (-)=430/0, (N)=304/0, vsi=997/0
+  classify = 17461 ms
+  data = 997
+  save to db = 182 ms
+  čas = 25276 ms / 527955 ms
+
+load test [21000,1000]
+  load = 7441 ms
+  corpus = 73% 23371/31779
+  clean(stop,min,max) = 11588
+  data = 296 ms
+  classify 511/999
+  (+)=257/0, (-)=437/0, (N)=305/0, vsi=999/0
+  classify = 17544 ms
+  data = 999
+  save to db = 271 ms
+  čas = 25555 ms / 553511 ms
+
+load test [22000,1000]
+  load = 7353 ms
+  corpus = 73% 25270/34431
+  clean(stop,min,max) = 12859
+  data = 319 ms
+  classify 511/1000
+  (+)=182/0, (-)=508/0, (N)=310/0, vsi=1000/0
+  classify = 17596 ms
+  data = 1000
+  save to db = 226 ms
+  čas = 25498 ms / 579009 ms
+
+load test [23000,1000]
+  load = 7868 ms
+  corpus = 75% 24698/32540
+  clean(stop,min,max) = 12477
+  data = 289 ms
+  classify 511/1000
+  (+)=252/0, (-)=424/0, (N)=324/0, vsi=1000/0
+  classify = 17554 ms
+  data = 1000
+  save to db = 241 ms
+  čas = 25953 ms / 604963 ms
+
+load test [24000,1000]
+  load = 8495 ms
+  corpus = 75% 28312/37401
+  clean(stop,min,max) = 14597
+  data = 326 ms
+  classify 511/997
+  (+)=189/0, (-)=501/0, (N)=307/0, vsi=997/0
+  classify = 17571 ms
+  data = 997
+  save to db = 381 ms
+  čas = 26776 ms / 631740 ms
+
+load test [25000,1000]
+  load = 7802 ms
+  corpus = 75% 27074/36016
+  clean(stop,min,max) = 13785
+  data = 329 ms
+  classify 511/999
+  (+)=190/0, (-)=494/0, (N)=315/0, vsi=999/0
+  classify = 17592 ms
+  data = 999
+  save to db = 277 ms
+  čas = 26003 ms / 657743 ms
+
+load test [26000,1000]
+  load = 8231 ms
+  corpus = 73% 19350/26403
+  clean(stop,min,max) = 9501
+  data = 263 ms
+  classify 511/999
+  (+)=243/0, (-)=431/0, (N)=325/0, vsi=999/0
+  classify = 17476 ms
+  data = 999
+  save to db = 236 ms
+  čas = 26209 ms / 683953 ms
+
+load test [27000,1000]
+  load = 8324 ms
+  corpus = 74% 22763/30429
+  clean(stop,min,max) = 11596
+  data = 286 ms
+  classify 511/998
+  (+)=216/0, (-)=467/0, (N)=315/0, vsi=998/0
+  classify = 17498 ms
+  data = 998
+  save to db = 195 ms
+  čas = 26305 ms / 710259 ms
+
+load test [28000,1000]
+  load = 8753 ms
+  corpus = 72% 22333/30700
+  clean(stop,min,max) = 11088
+  data = 298 ms
+  classify 511/1000
+  (+)=225/0, (-)=441/0, (N)=334/0, vsi=1000/0
+  classify = 17538 ms
+  data = 1000
+  save to db = 162 ms
+  čas = 26753 ms / 737013 ms
+
+load test [29000,1000]
+  load = 8610 ms
+  corpus = 74% 23273/31101
+  clean(stop,min,max) = 11721
+  data = 292 ms
+  classify 511/999
+  (+)=205/0, (-)=485/0, (N)=309/0, vsi=999/0
+  classify = 17519 ms
+  data = 999
+  save to db = 243 ms
+  čas = 26665 ms / 763680 ms
+
+load test [30000,1000]
+  load = 8811 ms
+  corpus = 73% 23671/32017
+  clean(stop,min,max) = 11861
+  data = 293 ms
+  classify 511/999
+  (+)=201/0, (-)=467/0, (N)=331/0, vsi=999/0
+  classify = 17536 ms
+  data = 999
+  save to db = 233 ms
+  čas = 26875 ms / 790555 ms
+
+load test [31000,1000]
+  load = 9009 ms
+  corpus = 75% 30199/39899
+  clean(stop,min,max) = 15565
+  data = 354 ms
+  classify 511/1000
+  (+)=191/0, (-)=530/0, (N)=279/0, vsi=1000/0
+  classify = 17658 ms
+  data = 1000
+  save to db = 185 ms
+  čas = 27210 ms / 817766 ms
+
+load test [32000,1000]
+  load = 9131 ms
+  corpus = 74% 28373/38245
+  clean(stop,min,max) = 14304
+  data = 350 ms
+  classify 511/995
+  (+)=190/0, (-)=495/0, (N)=310/0, vsi=995/0
+  classify = 17559 ms
+  data = 995
+  save to db = 256 ms
+  čas = 27299 ms / 845065 ms
+
+load test [33000,1000]
+  load = 10185 ms
+  corpus = 72% 21027/28923
+  clean(stop,min,max) = 10613
+  data = 278 ms
+  classify 511/998
+  (+)=205/0, (-)=458/0, (N)=335/0, vsi=998/0
+  classify = 17474 ms
+  data = 998
+  save to db = 180 ms
+  čas = 28120 ms / 873186 ms
+
+load test [34000,1000]
+  load = 9279 ms
+  corpus = 73% 24225/33182
+  clean(stop,min,max) = 12436
+  data = 312 ms
+  classify 511/998
+  (+)=207/0, (-)=478/0, (N)=313/0, vsi=998/0
+  classify = 17543 ms
+  data = 998
+  save to db = 264 ms
+  čas = 27402 ms / 900588 ms
+
+load test [35000,1000]
+  load = 10060 ms
+  corpus = 74% 24921/33428
+  clean(stop,min,max) = 12576
+  data = 303 ms
+  classify 511/997
+  (+)=220/0, (-)=479/0, (N)=298/0, vsi=997/0
+  classify = 17513 ms
+  data = 997
+  save to db = 183 ms
+  čas = 28061 ms / 928650 ms
+
+load test [36000,1000]
+  load = 9562 ms
+  corpus = 72% 15858/21861
+  clean(stop,min,max) = 7877
+  data = 213 ms
+  classify 511/998
+  (+)=194/0, (-)=465/0, (N)=339/0, vsi=998/0
+  classify = 17365 ms
+  data = 998
+  save to db = 245 ms
+  čas = 27388 ms / 956038 ms
+
+load test [37000,1000]
+  load = 10246 ms
+  corpus = 74% 26737/35915
+  clean(stop,min,max) = 13552
+  data = 327 ms
+  classify 511/999
+  (+)=177/0, (-)=486/0, (N)=336/0, vsi=999/0
+  classify = 17587 ms
+  data = 999
+  save to db = 248 ms
+  čas = 28411 ms / 984449 ms
+
+load test [38000,1000]
+  load = 9862 ms
+  corpus = 74% 31882/42653
+  clean(stop,min,max) = 16281
+  data = 375 ms
+  classify 511/1000
+  (+)=160/0, (-)=572/0, (N)=268/0, vsi=1000/0
+  classify = 17702 ms
+  data = 1000
+  save to db = 289 ms
+  čas = 28230 ms / 1012680 ms
+
+load test [39000,1000]
+  load = 10246 ms
+  corpus = 73% 23283/31568
+  clean(stop,min,max) = 11815
+  data = 292 ms
+  classify 511/1000
+  (+)=207/0, (-)=470/0, (N)=323/0, vsi=1000/0
+  classify = 17545 ms
+  data = 1000
+  save to db = 258 ms
+  čas = 28344 ms / 1041024 ms
+
+load test [40000,1000]
+  load = 10378 ms
+  corpus = 75% 26333/35100
+  clean(stop,min,max) = 13397
+  data = 312 ms
+  classify 511/998
+  (+)=208/0, (-)=452/0, (N)=338/0, vsi=998/0
+  classify = 17552 ms
+  data = 998
+  save to db = 286 ms
+  čas = 28531 ms / 1069555 ms
+
+load test [41000,1000]
+  load = 10514 ms
+  corpus = 73% 21022/28416
+  clean(stop,min,max) = 10614
+  data = 269 ms
+  classify 511/998
+  (+)=245/0, (-)=410/0, (N)=343/0, vsi=998/0
+  classify = 17457 ms
+  data = 998
+  save to db = 312 ms
+  čas = 28555 ms / 1098111 ms
+
+load test [42000,1000]
+  load = 10642 ms
+  corpus = 73% 24095/32624
+  clean(stop,min,max) = 12215
+  data = 302 ms
+  classify 511/999
+  (+)=195/0, (-)=488/0, (N)=316/0, vsi=999/0
+  classify = 17536 ms
+  data = 999
+  save to db = 284 ms
+  čas = 28766 ms / 1126878 ms
+
+load test [43000,1000]
+  load = 10697 ms
+  corpus = 74% 27104/36485
+  clean(stop,min,max) = 13422
+  data = 336 ms
+  classify 511/1000
+  (+)=278/0, (-)=410/0, (N)=312/0, vsi=1000/0
+  classify = 17612 ms
+  data = 1000
+  save to db = 271 ms
+  čas = 28919 ms / 1155797 ms
+
+load test [44000,1000]
+  load = 10809 ms
+  corpus = 73% 20470/27822
+  clean(stop,min,max) = 10231
+  data = 263 ms
+  classify 511/998
+  (+)=239/0, (-)=441/0, (N)=318/0, vsi=998/0
+  classify = 17448 ms
+  data = 998
+  save to db = 286 ms
+  čas = 28809 ms / 1184607 ms
+
+load test [45000,1000]
+  load = 10418 ms
+  corpus = 75% 27125/35911
+  clean(stop,min,max) = 13728
+  data = 324 ms
+  classify 511/1000
+  (+)=208/0, (-)=480/0, (N)=312/0, vsi=1000/0
+  classify = 17595 ms
+  data = 1000
+  save to db = 328 ms
+  čas = 28668 ms / 1213276 ms
+
+load test [46000,1000]
+  load = 10630 ms
+  corpus = 74% 23020/30884
+  clean(stop,min,max) = 11752
+  data = 281 ms
+  classify 511/998
+  (+)=220/0, (-)=472/0, (N)=306/0, vsi=998/0
+  classify = 17506 ms
+  data = 998
+  save to db = 263 ms
+  čas = 28684 ms / 1241960 ms
+
+load test [47000,1000]
+  load = 10785 ms
+  corpus = 73% 21511/29313
+  clean(stop,min,max) = 10582
+  data = 282 ms
+  classify 511/1000
+  (+)=257/0, (-)=443/0, (N)=300/0, vsi=1000/0
+  classify = 17525 ms
+  data = 1000
+  save to db = 250 ms
+  čas = 28844 ms / 1270804 ms
+
+load test [48000,1000]
+  load = 11444 ms
+  corpus = 74% 20189/27225
+  clean(stop,min,max) = 10029
+  data = 246 ms
+  classify 511/998
+  (+)=281/0, (-)=377/0, (N)=340/0, vsi=998/0
+  classify = 17450 ms
+  data = 998
+  save to db = 295 ms
+  čas = 29437 ms / 1300242 ms
+
+load test [49000,1000]
+  load = 12454 ms
+  corpus = 73% 23188/31361
+  clean(stop,min,max) = 11678
+  data = 291 ms
+  classify 511/999
+  (+)=209/0, (-)=486/0, (N)=304/0, vsi=999/0
+  classify = 17562 ms
+  data = 999
+  save to db = 562 ms
+  čas = 30871 ms / 1331113 ms
+
+load test [50000,1000]
+  load = 12340 ms
+  corpus = 74% 23616/31734
+  clean(stop,min,max) = 11732
+  data = 289 ms
+  classify 511/999
+  (+)=188/0, (-)=498/0, (N)=313/0, vsi=999/0
+  classify = 17577 ms
+  data = 999
+  save to db = 290 ms
+  čas = 30497 ms / 1361611 ms
+
+load test [51000,1000]
+  load = 11762 ms
+  corpus = 73% 18973/25969
+  clean(stop,min,max) = 9373
+  data = 256 ms
+  classify 511/1000
+  (+)=314/0, (-)=379/0, (N)=307/0, vsi=1000/0
+  classify = 17473 ms
+  data = 1000
+  save to db = 273 ms
+  čas = 29766 ms / 1391377 ms
+
+load test [52000,1000]
+  load = 11667 ms
+  corpus = 73% 23632/32090
+  clean(stop,min,max) = 11745
+  data = 303 ms
+  classify 511/997
+  (+)=317/0, (-)=406/0, (N)=274/0, vsi=997/0
+  classify = 17513 ms
+  data = 997
+  save to db = 378 ms
+  čas = 29865 ms / 1421242 ms
+
+load test [53000,1000]
+  load = 12017 ms
+  corpus = 75% 22319/29481
+  clean(stop,min,max) = 11168
+  data = 269 ms
+  classify 511/999
+  (+)=198/0, (-)=486/0, (N)=315/0, vsi=999/0
+  classify = 17494 ms
+  data = 999
+  save to db = 329 ms
+  čas = 30111 ms / 1451354 ms
+
+load test [54000,1000]
+  load = 12371 ms
+  corpus = 75% 26665/35529
+  clean(stop,min,max) = 13537
+  data = 315 ms
+  classify 511/1000
+  (+)=215/0, (-)=494/0, (N)=291/0, vsi=1000/0
+  classify = 17598 ms
+  data = 1000
+  save to db = 286 ms
+  čas = 30573 ms / 1481927 ms
+
+load test [55000,1000]
+  load = 12499 ms
+  corpus = 74% 21421/28714
+  clean(stop,min,max) = 10685
+  data = 269 ms
+  classify 511/999
+  (+)=233/0, (-)=410/0, (N)=356/0, vsi=999/0
+  classify = 17483 ms
+  data = 999
+  save to db = 322 ms
+  čas = 30575 ms / 1512503 ms
+
+load test [56000,1000]
+  load = 12090 ms
+  corpus = 74% 19438/26126
+  clean(stop,min,max) = 9565
+  data = 243 ms
+  classify 511/997
+  (+)=319/0, (-)=384/0, (N)=294/0, vsi=997/0
+  classify = 17411 ms
+  data = 997
+  save to db = 409 ms
+  čas = 30155 ms / 1542659 ms
+
+load test [57000,1000]
+  load = 12115 ms
+  corpus = 74% 21456/28849
+  clean(stop,min,max) = 10819
+  data = 264 ms
+  classify 511/998
+  (+)=291/0, (-)=394/0, (N)=313/0, vsi=998/0
+  classify = 17465 ms
+  data = 998
+  save to db = 296 ms
+  čas = 30142 ms / 1572802 ms
+
+load test [58000,1000]
+  load = 12689 ms
+  corpus = 73% 21040/28695
+  clean(stop,min,max) = 10462
+  data = 268 ms
+  classify 511/999
+  (+)=268/0, (-)=432/0, (N)=299/0, vsi=999/0
+  classify = 17490 ms
+  data = 999
+  save to db = 294 ms
+  čas = 30743 ms / 1603546 ms
+
+load test [59000,1000]
+  load = 12705 ms
+  corpus = 74% 24381/32805
+  clean(stop,min,max) = 12573
+  data = 306 ms
+  classify 511/998
+  (+)=226/0, (-)=470/0, (N)=302/0, vsi=998/0
+  classify = 17519 ms
+  data = 998
+  save to db = 410 ms
+  čas = 30943 ms / 1634489 ms
+
+load test [60000,1000]
+  load = 13177 ms
+  corpus = 73% 22413/30401
+  clean(stop,min,max) = 11094
+  data = 289 ms
+  classify 511/999
+  (+)=198/0, (-)=456/0, (N)=345/0, vsi=999/0
+  classify = 17512 ms
+  data = 999
+  save to db = 319 ms
+  čas = 31299 ms / 1665789 ms
+
+load test [61000,1000]
+  load = 13391 ms
+  corpus = 75% 27944/36985
+  clean(stop,min,max) = 14201
+  data = 325 ms
+  classify 511/997
+  (+)=180/0, (-)=520/0, (N)=297/0, vsi=997/0
+  classify = 17601 ms
+  data = 997
+  save to db = 325 ms
+  čas = 31644 ms / 1697433 ms
+
+load test [62000,1000]
+  load = 13285 ms
+  corpus = 73% 25367/34385
+  clean(stop,min,max) = 12935
+  data = 325 ms
+  classify 511/998
+  (+)=271/0, (-)=391/0, (N)=336/0, vsi=998/0
+  classify = 17559 ms
+  data = 998
+  save to db = 351 ms
+  čas = 31523 ms / 1728957 ms
+
+load test [63000,1000]
+  load = 13121 ms
+  corpus = 73% 23764/32163
+  clean(stop,min,max) = 12071
+  data = 301 ms
+  classify 511/999
+  (+)=261/0, (-)=397/0, (N)=341/0, vsi=999/0
+  classify = 17546 ms
+  data = 999
+  save to db = 453 ms
+  čas = 31423 ms / 1760380 ms
+
+load test [64000,1000]
+  load = 12440 ms
+  corpus = 72% 18544/25705
+  clean(stop,min,max) = 9299
+  data = 260 ms
+  classify 511/1000
+  (+)=319/0, (-)=350/0, (N)=331/0, vsi=1000/0
+  classify = 17466 ms
+  data = 1000
+  save to db = 299 ms
+  čas = 30467 ms / 1790847 ms
+
+load test [65000,1000]
+  load = 13731 ms
+  corpus = 73% 18109/24546
+  clean(stop,min,max) = 9137
+  data = 233 ms
+  classify 511/997
+  (+)=244/0, (-)=399/0, (N)=354/0, vsi=997/0
+  classify = 17398 ms
+  data = 997
+  save to db = 307 ms
+  čas = 31671 ms / 1822518 ms
+
+load test [66000,1000]
+  load = 13958 ms
+  corpus = 73% 19474/26583
+  clean(stop,min,max) = 9914
+  data = 262 ms
+  classify 511/999
+  (+)=255/0, (-)=412/0, (N)=332/0, vsi=999/0
+  classify = 17457 ms
+  data = 999
+  save to db = 302 ms
+  čas = 31981 ms / 1854500 ms
+
+load test [67000,1000]
+  load = 13978 ms
+  corpus = 73% 21090/28828
+  clean(stop,min,max) = 10509
+  data = 273 ms
+  classify 511/997
+  (+)=282/0, (-)=389/0, (N)=326/0, vsi=997/0
+  classify = 17477 ms
+  data = 997
+  save to db = 405 ms
+  čas = 32134 ms / 1886634 ms
+
+load test [68000,1000]
+  load = 14729 ms
+  corpus = 72% 21416/29603
+  clean(stop,min,max) = 10821
+  data = 279 ms
+  classify 511/1000
+  (+)=320/0, (-)=384/0, (N)=296/0, vsi=1000/0
+  classify = 17521 ms
+  data = 1000
+  save to db = 320 ms
+  čas = 32851 ms / 1919486 ms
+
+load test [69000,1000]
+  load = 14578 ms
+  corpus = 73% 29823/40773
+  clean(stop,min,max) = 15043
+  data = 374 ms
+  classify 511/1000
+  (+)=207/0, (-)=474/0, (N)=319/0, vsi=1000/0
+  classify = 17694 ms
+  data = 1000
+  save to db = 314 ms
+  čas = 32962 ms / 1952449 ms
+
+load test [70000,1000]
+  load = 14832 ms
+  corpus = 75% 28414/37780
+  clean(stop,min,max) = 14649
+  data = 342 ms
+  classify 511/1000
+  (+)=251/0, (-)=445/0, (N)=304/0, vsi=1000/0
+  classify = 17631 ms
+  data = 1000
+  save to db = 279 ms
+  čas = 33086 ms / 1985536 ms
+
+load test [71000,1000]
+  load = 16164 ms
+  corpus = 74% 20741/27896
+  clean(stop,min,max) = 10644
+  data = 262 ms
+  classify 511/998
+  (+)=258/0, (-)=411/0, (N)=329/0, vsi=998/0
+  classify = 17454 ms
+  data = 998
+  save to db = 394 ms
+  čas = 34276 ms / 2019812 ms
+
+load test [72000,1000]
+  load = 15085 ms
+  corpus = 71% 12784/18005
+  clean(stop,min,max) = 6303
+  data = 188 ms
+  classify 511/1000
+  (+)=456/0, (-)=251/0, (N)=293/0, vsi=1000/0
+  classify = 17348 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 32921 ms / 2052733 ms
+
+load test [73000,1000]
+  load = 15078 ms
+  corpus = 74% 23005/30925
+  clean(stop,min,max) = 11536
+  data = 292 ms
+  classify 511/998
+  (+)=222/0, (-)=442/0, (N)=334/0, vsi=998/0
+  classify = 17501 ms
+  data = 998
+  save to db = 407 ms
+  čas = 33282 ms / 2086015 ms
+
+load test [74000,1000]
+  load = 16029 ms
+  corpus = 74% 24117/32539
+  clean(stop,min,max) = 12298
+  data = 305 ms
+  classify 511/999
+  (+)=192/0, (-)=496/0, (N)=311/0, vsi=999/0
+  classify = 17550 ms
+  data = 999
+  save to db = 328 ms
+  čas = 34214 ms / 2120230 ms
+
+load test [75000,1000]
+  load = 17598 ms
+  corpus = 75% 29939/39711
+  clean(stop,min,max) = 14922
+  data = 358 ms
+  classify 511/998
+  (+)=270/0, (-)=457/0, (N)=271/0, vsi=998/0
+  classify = 17644 ms
+  data = 998
+  save to db = 309 ms
+  čas = 35913 ms / 2156143 ms
+
+load test [76000,1000]
+  load = 16464 ms
+  corpus = 74% 24474/32814
+  clean(stop,min,max) = 12560
+  data = 302 ms
+  classify 511/999
+  (+)=322/0, (-)=391/0, (N)=286/0, vsi=999/0
+  classify = 17544 ms
+  data = 999
+  save to db = 308 ms
+  čas = 34625 ms / 2190768 ms
+
+load test [77000,1000]
+  load = 16618 ms
+  corpus = 75% 33819/44681
+  clean(stop,min,max) = 17489
+  data = 386 ms
+  classify 511/999
+  (+)=175/0, (-)=551/0, (N)=273/0, vsi=999/0
+  classify = 17715 ms
+  data = 999
+  save to db = 297 ms
+  čas = 35019 ms / 2225787 ms
+
+load test [78000,1000]
+  load = 17687 ms
+  corpus = 75% 30436/40411
+  clean(stop,min,max) = 15649
+  data = 355 ms
+  classify 511/999
+  (+)=196/0, (-)=480/0, (N)=323/0, vsi=999/0
+  classify = 17660 ms
+  data = 999
+  save to db = 404 ms
+  čas = 36109 ms / 2261897 ms
+
+load test [79000,1000]
+  load = 17163 ms
+  corpus = 72% 18839/26021
+  clean(stop,min,max) = 9371
+  data = 251 ms
+  classify 511/999
+  (+)=247/0, (-)=421/0, (N)=331/0, vsi=999/0
+  classify = 17459 ms
+  data = 999
+  save to db = 309 ms
+  čas = 35184 ms / 2297082 ms
+
+load test [80000,1000]
+  load = 16667 ms
+  corpus = 74% 25094/33904
+  clean(stop,min,max) = 12862
+  data = 305 ms
+  classify 511/999
+  (+)=304/0, (-)=395/0, (N)=300/0, vsi=999/0
+  classify = 17565 ms
+  data = 999
+  save to db = 299 ms
+  čas = 34837 ms / 2331919 ms
+
+load test [81000,1000]
+  load = 16444 ms
+  corpus = 71% 16234/22584
+  clean(stop,min,max) = 8072
+  data = 223 ms
+  classify 511/1000
+  (+)=310/0, (-)=320/0, (N)=370/0, vsi=1000/0
+  classify = 17415 ms
+  data = 1000
+  save to db = 302 ms
+  čas = 34386 ms / 2366305 ms
+
+load test [82000,1000]
+  load = 17162 ms
+  corpus = 73% 24780/33613
+  clean(stop,min,max) = 12709
+  data = 307 ms
+  classify 511/1000
+  (+)=281/0, (-)=404/0, (N)=315/0, vsi=1000/0
+  classify = 17584 ms
+  data = 1000
+  save to db = 279 ms
+  čas = 35334 ms / 2401640 ms
+
+load test [83000,1000]
+  load = 17772 ms
+  corpus = 75% 25008/33143
+  clean(stop,min,max) = 12582
+  data = 302 ms
+  classify 511/998
+  (+)=205/0, (-)=514/0, (N)=279/0, vsi=998/0
+  classify = 17536 ms
+  data = 998
+  save to db = 318 ms
+  čas = 35930 ms / 2437570 ms
+
+load test [84000,1000]
+  load = 17771 ms
+  corpus = 75% 31935/42454
+  clean(stop,min,max) = 16301
+  data = 371 ms
+  classify 511/1000
+  (+)=161/0, (-)=570/0, (N)=269/0, vsi=1000/0
+  classify = 17705 ms
+  data = 1000
+  save to db = 273 ms
+  čas = 36121 ms / 2473692 ms
+
+load test [85000,1000]
+  load = 17865 ms
+  corpus = 73% 19692/26757
+  clean(stop,min,max) = 9799
+  data = 253 ms
+  classify 511/998
+  (+)=289/0, (-)=368/0, (N)=341/0, vsi=998/0
+  classify = 17448 ms
+  data = 998
+  save to db = 275 ms
+  čas = 35842 ms / 2509535 ms
+
+load test [86000,1000]
+  load = 18190 ms
+  corpus = 72% 18894/25901
+  clean(stop,min,max) = 9594
+  data = 250 ms
+  classify 511/998
+  (+)=270/0, (-)=413/0, (N)=315/0, vsi=998/0
+  classify = 17433 ms
+  data = 998
+  save to db = 276 ms
+  čas = 36151 ms / 2545686 ms
+
+load test [87000,1000]
+  load = 18736 ms
+  corpus = 73% 28689/38781
+  clean(stop,min,max) = 14574
+  data = 348 ms
+  classify 511/999
+  (+)=191/0, (-)=486/0, (N)=322/0, vsi=999/0
+  classify = 17642 ms
+  data = 999
+  save to db = 342 ms
+  čas = 37070 ms / 2582756 ms
+
+load test [88000,1000]
+  load = 18882 ms
+  corpus = 75% 32639/43028
+  clean(stop,min,max) = 16685
+  data = 375 ms
+  classify 511/999
+  (+)=223/0, (-)=491/0, (N)=285/0, vsi=999/0
+  classify = 17730 ms
+  data = 999
+  save to db = 276 ms
+  čas = 37266 ms / 2620023 ms
+
+load test [89000,1000]
+  load = 18399 ms
+  corpus = 73% 25719/35052
+  clean(stop,min,max) = 13178
+  data = 326 ms
+  classify 511/999
+  (+)=271/0, (-)=413/0, (N)=315/0, vsi=999/0
+  classify = 17580 ms
+  data = 999
+  save to db = 286 ms
+  čas = 36594 ms / 2656617 ms
+
+load test [90000,1000]
+  load = 17925 ms
+  corpus = 73% 21656/29288
+  clean(stop,min,max) = 11119
+  data = 274 ms
+  classify 511/1000
+  (+)=307/0, (-)=382/0, (N)=311/0, vsi=1000/0
+  classify = 17509 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 35993 ms / 2692610 ms
+
+load test [91000,1000]
+  load = 18257 ms
+  corpus = 75% 29106/38299
+  clean(stop,min,max) = 15123
+  data = 337 ms
+  classify 511/999
+  (+)=195/0, (-)=538/0, (N)=266/0, vsi=999/0
+  classify = 17622 ms
+  data = 999
+  save to db = 268 ms
+  čas = 36486 ms / 2729097 ms
+
+load test [92000,1000]
+  load = 18281 ms
+  corpus = 73% 20529/27745
+  clean(stop,min,max) = 10723
+  data = 262 ms
+  classify 511/994
+  (+)=217/0, (-)=430/0, (N)=347/0, vsi=994/0
+  classify = 17366 ms
+  data = 994
+  save to db = 276 ms
+  čas = 36187 ms / 2765285 ms
+
+load test [93000,1000]
+  load = 18892 ms
+  corpus = 73% 24645/33355
+  clean(stop,min,max) = 12549
+  data = 307 ms
+  classify 511/1000
+  (+)=176/0, (-)=500/0, (N)=324/0, vsi=1000/0
+  classify = 17562 ms
+  data = 1000
+  save to db = 247 ms
+  čas = 37010 ms / 2802296 ms
+
+load test [94000,1000]
+  load = 18601 ms
+  corpus = 74% 26361/35448
+  clean(stop,min,max) = 13455
+  data = 316 ms
+  classify 511/1000
+  (+)=188/0, (-)=528/0, (N)=284/0, vsi=1000/0
+  classify = 17600 ms
+  data = 1000
+  save to db = 411 ms
+  čas = 36930 ms / 2839226 ms
+
+load test [95000,1000]
+  load = 19220 ms
+  corpus = 74% 26111/35041
+  clean(stop,min,max) = 13510
+  data = 324 ms
+  classify 511/998
+  (+)=228/0, (-)=429/0, (N)=341/0, vsi=998/0
+  classify = 17546 ms
+  data = 998
+  save to db = 273 ms
+  čas = 37365 ms / 2876592 ms
+
+load test [96000,1000]
+  load = 18969 ms
+  corpus = 73% 19381/26458
+  clean(stop,min,max) = 9841
+  data = 251 ms
+  classify 511/997
+  (+)=319/0, (-)=366/0, (N)=312/0, vsi=997/0
+  classify = 17414 ms
+  data = 997
+  save to db = 299 ms
+  čas = 36934 ms / 2913526 ms
+
+load test [97000,1000]
+  load = 18459 ms
+  corpus = 74% 24784/33194
+  clean(stop,min,max) = 12570
+  data = 297 ms
+  classify 511/997
+  (+)=240/0, (-)=450/0, (N)=307/0, vsi=997/0
+  classify = 17509 ms
+  data = 997
+  save to db = 308 ms
+  čas = 36574 ms / 2950100 ms
+
+load test [98000,1000]
+  load = 18695 ms
+  corpus = 74% 24954/33603
+  clean(stop,min,max) = 12678
+  data = 304 ms
+  classify 511/1000
+  (+)=183/0, (-)=482/0, (N)=335/0, vsi=1000/0
+  classify = 17572 ms
+  data = 1000
+  save to db = 414 ms
+  čas = 36986 ms / 2987087 ms
+
+load test [99000,1000]
+  load = 18951 ms
+  corpus = 74% 22726/30417
+  clean(stop,min,max) = 11298
+  data = 283 ms
+  classify 511/999
+  (+)=220/0, (-)=450/0, (N)=329/0, vsi=999/0
+  classify = 17513 ms
+  data = 999
+  save to db = 294 ms
+  čas = 37042 ms / 3024130 ms
+
+load test [100000,1000]
+  load = 20080 ms
+  corpus = 73% 18104/24740
+  clean(stop,min,max) = 9076
+  data = 236 ms
+  classify 511/999
+  (+)=222/0, (-)=397/0, (N)=380/0, vsi=999/0
+  classify = 17422 ms
+  data = 999
+  save to db = 273 ms
+  čas = 38013 ms / 3062144 ms
+
+load test [101000,1000]
+  load = 19930 ms
+  corpus = 71% 18341/25495
+  clean(stop,min,max) = 9267
+  data = 247 ms
+  classify 511/995
+  (+)=262/0, (-)=370/0, (N)=363/0, vsi=995/0
+  classify = 17404 ms
+  data = 995
+  save to db = 302 ms
+  čas = 37884 ms / 3100028 ms
+
+load test [102000,1000]
+  load = 20157 ms
+  corpus = 72% 11650/16019
+  clean(stop,min,max) = 5653
+  data = 159 ms
+  classify 511/1000
+  (+)=408/0, (-)=245/0, (N)=347/0, vsi=1000/0
+  classify = 17312 ms
+  data = 1000
+  save to db = 283 ms
+  čas = 37914 ms / 3137943 ms
+
+load test [103000,1000]
+  load = 20421 ms
+  corpus = 73% 23643/32163
+  clean(stop,min,max) = 12073
+  data = 299 ms
+  classify 511/999
+  (+)=353/0, (-)=357/0, (N)=289/0, vsi=999/0
+  classify = 17535 ms
+  data = 999
+  save to db = 368 ms
+  čas = 38625 ms / 3176569 ms
+
+load test [104000,1000]
+  load = 21087 ms
+  corpus = 73% 12497/17023
+  clean(stop,min,max) = 6133
+  data = 174 ms
+  classify 511/999
+  (+)=431/0, (-)=215/0, (N)=353/0, vsi=999/0
+  classify = 17296 ms
+  data = 999
+  save to db = 272 ms
+  čas = 38831 ms / 3215400 ms
+
+load test [105000,1000]
+  load = 19615 ms
+  corpus = 74% 25670/34354
+  clean(stop,min,max) = 12890
+  data = 309 ms
+  classify 511/1000
+  (+)=176/0, (-)=535/0, (N)=289/0, vsi=1000/0
+  classify = 17582 ms
+  data = 1000
+  save to db = 325 ms
+  čas = 37832 ms / 3253232 ms
+
+load test [106000,1000]
+  load = 20899 ms
+  corpus = 73% 18306/25029
+  clean(stop,min,max) = 9131
+  data = 240 ms
+  classify 511/999
+  (+)=240/0, (-)=437/0, (N)=322/0, vsi=999/0
+  classify = 17435 ms
+  data = 999
+  save to db = 312 ms
+  čas = 38888 ms / 3292121 ms
+
+load test [107000,1000]
+  load = 20552 ms
+  corpus = 74% 19025/25655
+  clean(stop,min,max) = 9670
+  data = 246 ms
+  classify 511/998
+  (+)=179/0, (-)=515/0, (N)=304/0, vsi=998/0
+  classify = 17414 ms
+  data = 998
+  save to db = 295 ms
+  čas = 38509 ms / 3330631 ms
+
+load test [108000,1000]
+  load = 20793 ms
+  corpus = 73% 18488/25139
+  clean(stop,min,max) = 9567
+  data = 244 ms
+  classify 511/999
+  (+)=280/0, (-)=400/0, (N)=319/0, vsi=999/0
+  classify = 17430 ms
+  data = 999
+  save to db = 293 ms
+  čas = 38763 ms / 3369394 ms
+
+load test [109000,1000]
+  load = 20440 ms
+  corpus = 74% 20977/28291
+  clean(stop,min,max) = 10621
+  data = 266 ms
+  classify 511/998
+  (+)=368/0, (-)=320/0, (N)=310/0, vsi=998/0
+  classify = 17462 ms
+  data = 998
+  save to db = 296 ms
+  čas = 38464 ms / 3407858 ms
+
+load test [110000,1000]
+  load = 20680 ms
+  corpus = 73% 20356/27732
+  clean(stop,min,max) = 10447
+  data = 261 ms
+  classify 511/999
+  (+)=276/0, (-)=391/0, (N)=332/0, vsi=999/0
+  classify = 17500 ms
+  data = 999
+  save to db = 388 ms
+  čas = 38832 ms / 3446690 ms
+
+load test [111000,1000]
+  load = 22370 ms
+  corpus = 75% 29403/39185
+  clean(stop,min,max) = 15015
+  data = 349 ms
+  classify 511/999
+  (+)=251/0, (-)=461/0, (N)=287/0, vsi=999/0
+  classify = 17709 ms
+  data = 999
+  save to db = 334 ms
+  čas = 40765 ms / 3487456 ms
+
+load test [112000,1000]
+  load = 22651 ms
+  corpus = 73% 18612/25334
+  clean(stop,min,max) = 9396
+  data = 243 ms
+  classify 511/999
+  (+)=349/0, (-)=326/0, (N)=324/0, vsi=999/0
+  classify = 17632 ms
+  data = 999
+  save to db = 328 ms
+  čas = 40856 ms / 3528312 ms
+
+load test [113000,1000]
+  load = 22901 ms
+  corpus = 73% 23726/32216
+  clean(stop,min,max) = 12195
+  data = 296 ms
+  classify 511/999
+  (+)=273/0, (-)=419/0, (N)=307/0, vsi=999/0
+  classify = 17536 ms
+  data = 999
+  save to db = 292 ms
+  čas = 41028 ms / 3569341 ms
+
+load test [114000,1000]
+  load = 21184 ms
+  corpus = 72% 26915/36903
+  clean(stop,min,max) = 13756
+  data = 348 ms
+  classify 511/999
+  (+)=212/0, (-)=474/0, (N)=313/0, vsi=999/0
+  classify = 17623 ms
+  data = 999
+  save to db = 297 ms
+  čas = 39454 ms / 3608796 ms
+
+load test [115000,1000]
+  load = 21476 ms
+  corpus = 74% 23228/31164
+  clean(stop,min,max) = 11761
+  data = 292 ms
+  classify 511/999
+  (+)=284/0, (-)=402/0, (N)=313/0, vsi=999/0
+  classify = 17527 ms
+  data = 999
+  save to db = 293 ms
+  čas = 39591 ms / 3648387 ms
+
+load test [116000,1000]
+  load = 21144 ms
+  corpus = 73% 21071/28740
+  clean(stop,min,max) = 10536
+  data = 269 ms
+  classify 511/999
+  (+)=302/0, (-)=385/0, (N)=312/0, vsi=999/0
+  classify = 17519 ms
+  data = 999
+  save to db = 276 ms
+  čas = 39210 ms / 3687597 ms
+
+load test [117000,1000]
+  load = 21935 ms
+  corpus = 74% 26656/35838
+  clean(stop,min,max) = 13623
+  data = 333 ms
+  classify 511/999
+  (+)=260/0, (-)=427/0, (N)=312/0, vsi=999/0
+  classify = 17588 ms
+  data = 999
+  save to db = 261 ms
+  čas = 40119 ms / 3727717 ms
+
+load test [118000,1000]
+  load = 21331 ms
+  corpus = 74% 23306/31407
+  clean(stop,min,max) = 11753
+  data = 295 ms
+  classify 511/999
+  (+)=318/0, (-)=367/0, (N)=314/0, vsi=999/0
+  classify = 17524 ms
+  data = 999
+  save to db = 393 ms
+  čas = 39545 ms / 3767262 ms
+
+load test [119000,1000]
+  load = 21387 ms
+  corpus = 73% 19949/27106
+  clean(stop,min,max) = 10023
+  data = 260 ms
+  classify 511/1000
+  (+)=284/0, (-)=406/0, (N)=310/0, vsi=1000/0
+  classify = 17483 ms
+  data = 1000
+  save to db = 286 ms
+  čas = 39421 ms / 3806683 ms
+
+load test [120000,1000]
+  load = 21953 ms
+  corpus = 74% 23767/31911
+  clean(stop,min,max) = 11770
+  data = 296 ms
+  classify 511/1000
+  (+)=323/0, (-)=368/0, (N)=309/0, vsi=1000/0
+  classify = 17562 ms
+  data = 1000
+  save to db = 289 ms
+  čas = 40102 ms / 3846786 ms
+
+load test [121000,1000]
+  load = 22041 ms
+  corpus = 74% 21818/29155
+  clean(stop,min,max) = 10792
+  data = 266 ms
+  classify 511/1000
+  (+)=361/0, (-)=342/0, (N)=297/0, vsi=1000/0
+  classify = 17510 ms
+  data = 1000
+  save to db = 280 ms
+  čas = 40098 ms / 3886884 ms
+
+load test [122000,1000]
+  load = 22542 ms
+  corpus = 74% 30699/41130
+  clean(stop,min,max) = 15765
+  data = 371 ms
+  classify 511/1000
+  (+)=271/0, (-)=442/0, (N)=287/0, vsi=1000/0
+  classify = 17687 ms
+  data = 1000
+  save to db = 286 ms
+  čas = 40887 ms / 3927772 ms
+
+load test [123000,1000]
+  load = 23798 ms
+  corpus = 74% 27189/36423
+  clean(stop,min,max) = 13890
+  data = 335 ms
+  classify 511/998
+  (+)=192/0, (-)=475/0, (N)=331/0, vsi=998/0
+  classify = 17586 ms
+  data = 998
+  save to db = 287 ms
+  čas = 42009 ms / 3969781 ms
+
+load test [124000,1000]
+  load = 22797 ms
+  corpus = 74% 21736/29302
+  clean(stop,min,max) = 11025
+  data = 281 ms
+  classify 511/999
+  (+)=254/0, (-)=438/0, (N)=307/0, vsi=999/0
+  classify = 17497 ms
+  data = 999
+  save to db = 298 ms
+  čas = 40875 ms / 4010657 ms
+
+load test [125000,1000]
+  load = 22325 ms
+  corpus = 74% 28933/38696
+  clean(stop,min,max) = 14824
+  data = 342 ms
+  classify 511/998
+  (+)=214/0, (-)=470/0, (N)=314/0, vsi=998/0
+  classify = 17614 ms
+  data = 998
+  save to db = 381 ms
+  čas = 40664 ms / 4051322 ms
+
+load test [126000,1000]
+  load = 22521 ms
+  corpus = 73% 23103/31506
+  clean(stop,min,max) = 11847
+  data = 290 ms
+  classify 511/1000
+  (+)=202/0, (-)=482/0, (N)=316/0, vsi=1000/0
+  classify = 17549 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 40676 ms / 4091998 ms
+
+load test [127000,1000]
+  load = 23664 ms
+  corpus = 74% 24294/32737
+  clean(stop,min,max) = 12241
+  data = 298 ms
+  classify 511/1000
+  (+)=212/0, (-)=467/0, (N)=321/0, vsi=1000/0
+  classify = 17572 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 41832 ms / 4133831 ms
+
+load test [128000,1000]
+  load = 23213 ms
+  corpus = 73% 26324/35830
+  clean(stop,min,max) = 13138
+  data = 335 ms
+  classify 511/999
+  (+)=247/0, (-)=432/0, (N)=320/0, vsi=999/0
+  classify = 17601 ms
+  data = 999
+  save to db = 279 ms
+  čas = 41431 ms / 4175263 ms
+
+load test [129000,1000]
+  load = 23742 ms
+  corpus = 74% 26427/35492
+  clean(stop,min,max) = 13614
+  data = 316 ms
+  classify 511/998
+  (+)=150/0, (-)=562/0, (N)=286/0, vsi=998/0
+  classify = 17580 ms
+  data = 998
+  save to db = 358 ms
+  čas = 41998 ms / 4217261 ms
+
+load test [130000,1000]
+  load = 23727 ms
+  corpus = 74% 29113/39118
+  clean(stop,min,max) = 15153
+  data = 353 ms
+  classify 511/999
+  (+)=180/0, (-)=523/0, (N)=296/0, vsi=999/0
+  classify = 17642 ms
+  data = 999
+  save to db = 285 ms
+  čas = 42010 ms / 4259272 ms
+
+load test [131000,1000]
+  load = 24140 ms
+  corpus = 74% 27592/36915
+  clean(stop,min,max) = 14041
+  data = 332 ms
+  classify 511/999
+  (+)=238/0, (-)=456/0, (N)=305/0, vsi=999/0
+  classify = 17631 ms
+  data = 999
+  save to db = 300 ms
+  čas = 42405 ms / 4301677 ms
+
+load test [132000,1000]
+  load = 25450 ms
+  corpus = 73% 22416/30425
+  clean(stop,min,max) = 11311
+  data = 286 ms
+  classify 511/1000
+  (+)=222/0, (-)=448/0, (N)=330/0, vsi=1000/0
+  classify = 17644 ms
+  data = 1000
+  save to db = 473 ms
+  čas = 43854 ms / 4345532 ms
+
+load test [133000,1000]
+  load = 27648 ms
+  corpus = 73% 26041/35282
+  clean(stop,min,max) = 13246
+  data = 322 ms
+  classify 511/999
+  (+)=225/0, (-)=440/0, (N)=334/0, vsi=999/0
+  classify = 17663 ms
+  data = 999
+  save to db = 343 ms
+  čas = 45977 ms / 4391509 ms
+
+load test [134000,1000]
+  load = 29910 ms
+  corpus = 73% 23194/31598
+  clean(stop,min,max) = 11753
+  data = 295 ms
+  classify 511/999
+  (+)=197/0, (-)=478/0, (N)=324/0, vsi=999/0
+  classify = 17642 ms
+  data = 999
+  save to db = 358 ms
+  čas = 48207 ms / 4439717 ms
+
+load test [135000,1000]
+  load = 26917 ms
+  corpus = 73% 24740/33639
+  clean(stop,min,max) = 12482
+  data = 296 ms
+  classify 511/1000
+  (+)=246/0, (-)=441/0, (N)=313/0, vsi=1000/0
+  classify = 17503 ms
+  data = 1000
+  save to db = 251 ms
+  čas = 44968 ms / 4484685 ms
+
+load test [136000,1000]
+  load = 24834 ms
+  corpus = 73% 24249/32801
+  clean(stop,min,max) = 12238
+  data = 298 ms
+  classify 511/1000
+  (+)=236/0, (-)=475/0, (N)=289/0, vsi=1000/0
+  classify = 17503 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 42917 ms / 4527603 ms
+
+load test [137000,1000]
+  load = 24771 ms
+  corpus = 73% 24344/32911
+  clean(stop,min,max) = 12400
+  data = 298 ms
+  classify 511/1000
+  (+)=202/0, (-)=468/0, (N)=330/0, vsi=1000/0
+  classify = 17487 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 42823 ms / 4570427 ms
+
+load test [138000,1000]
+  load = 25911 ms
+  corpus = 74% 28895/38955
+  clean(stop,min,max) = 14826
+  data = 345 ms
+  classify 511/1000
+  (+)=152/0, (-)=594/0, (N)=254/0, vsi=1000/0
+  classify = 17581 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 44134 ms / 4614561 ms
+
+load test [139000,1000]
+  load = 25319 ms
+  corpus = 74% 21534/29051
+  clean(stop,min,max) = 10763
+  data = 266 ms
+  classify 511/1000
+  (+)=241/0, (-)=430/0, (N)=329/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 43322 ms / 4657884 ms
+
+load test [140000,1000]
+  load = 25819 ms
+  corpus = 73% 27055/36869
+  clean(stop,min,max) = 13329
+  data = 328 ms
+  classify 511/1000
+  (+)=209/0, (-)=501/0, (N)=290/0, vsi=1000/0
+  classify = 17565 ms
+  data = 1000
+  save to db = 391 ms
+  čas = 44104 ms / 4701988 ms
+
+load test [141000,1000]
+  load = 25349 ms
+  corpus = 73% 22729/30960
+  clean(stop,min,max) = 11318
+  data = 296 ms
+  classify 511/1000
+  (+)=207/0, (-)=451/0, (N)=342/0, vsi=1000/0
+  classify = 17472 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 43401 ms / 4745389 ms
+
+load test [142000,1000]
+  load = 26020 ms
+  corpus = 73% 22522/30529
+  clean(stop,min,max) = 11518
+  data = 296 ms
+  classify 511/1000
+  (+)=161/0, (-)=542/0, (N)=297/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 44056 ms / 4789446 ms
+
+load test [143000,1000]
+  load = 25427 ms
+  corpus = 74% 31093/41546
+  clean(stop,min,max) = 15832
+  data = 358 ms
+  classify 511/997
+  (+)=166/0, (-)=515/0, (N)=316/0, vsi=997/0
+  classify = 17565 ms
+  data = 997
+  save to db = 266 ms
+  čas = 43618 ms / 4833065 ms
+
+load test [144000,1000]
+  load = 25053 ms
+  corpus = 73% 25536/34714
+  clean(stop,min,max) = 12799
+  data = 328 ms
+  classify 511/999
+  (+)=276/0, (-)=405/0, (N)=318/0, vsi=999/0
+  classify = 17503 ms
+  data = 999
+  save to db = 250 ms
+  čas = 43135 ms / 4876200 ms
+
+load test [145000,1000]
+  load = 25802 ms
+  corpus = 74% 23864/32021
+  clean(stop,min,max) = 11806
+  data = 297 ms
+  classify 511/999
+  (+)=219/0, (-)=440/0, (N)=340/0, vsi=999/0
+  classify = 17455 ms
+  data = 999
+  save to db = 298 ms
+  čas = 43870 ms / 4920071 ms
+
+load test [146000,1000]
+  load = 26019 ms
+  corpus = 73% 26776/36196
+  clean(stop,min,max) = 13573
+  data = 328 ms
+  classify 511/1000
+  (+)=208/0, (-)=485/0, (N)=307/0, vsi=1000/0
+  classify = 17549 ms
+  data = 1000
+  save to db = 983 ms
+  čas = 44882 ms / 4964953 ms
+
+load test [147000,1000]
+  load = 26005 ms
+  corpus = 74% 27599/37092
+  clean(stop,min,max) = 13532
+  data = 328 ms
+  classify 511/1000
+  (+)=207/0, (-)=472/0, (N)=321/0, vsi=1000/0
+  classify = 17565 ms
+  data = 1000
+  save to db = 297 ms
+  čas = 44197 ms / 5009151 ms
+
+load test [148000,1000]
+  load = 25973 ms
+  corpus = 73% 24659/33467
+  clean(stop,min,max) = 12495
+  data = 312 ms
+  classify 511/1000
+  (+)=231/0, (-)=459/0, (N)=310/0, vsi=1000/0
+  classify = 17503 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 44055 ms / 5053207 ms
+
+load test [149000,1000]
+  load = 26411 ms
+  corpus = 73% 25040/34126
+  clean(stop,min,max) = 12531
+  data = 312 ms
+  classify 511/1000
+  (+)=249/0, (-)=468/0, (N)=283/0, vsi=1000/0
+  classify = 17519 ms
+  data = 1000
+  save to db = 406 ms
+  čas = 44649 ms / 5097856 ms
+
+load test [150000,1000]
+  load = 26051 ms
+  corpus = 75% 27001/35702
+  clean(stop,min,max) = 13407
+  data = 312 ms
+  classify 511/998
+  (+)=166/0, (-)=533/0, (N)=299/0, vsi=998/0
+  classify = 17504 ms
+  data = 998
+  save to db = 281 ms
+  čas = 44150 ms / 5142006 ms
+
+load test [151000,1000]
+  load = 26940 ms
+  corpus = 75% 26267/34855
+  clean(stop,min,max) = 13331
+  data = 297 ms
+  classify 511/1000
+  (+)=208/0, (-)=483/0, (N)=309/0, vsi=1000/0
+  classify = 17519 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 45054 ms / 5187061 ms
+
+load test [152000,1000]
+  load = 26878 ms
+  corpus = 73% 20211/27674
+  clean(stop,min,max) = 10106
+  data = 250 ms
+  classify 511/1000
+  (+)=255/0, (-)=407/0, (N)=338/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 281 ms
+  čas = 44851 ms / 5231913 ms
+
+load test [153000,1000]
+  load = 27284 ms
+  corpus = 74% 24051/32474
+  clean(stop,min,max) = 11985
+  data = 297 ms
+  classify 511/1000
+  (+)=274/0, (-)=404/0, (N)=322/0, vsi=1000/0
+  classify = 17487 ms
+  data = 1000
+  save to db = 360 ms
+  čas = 45430 ms / 5277343 ms
+
+load test [154000,1000]
+  load = 26144 ms
+  corpus = 75% 29242/38703
+  clean(stop,min,max) = 14718
+  data = 328 ms
+  classify 511/1000
+  (+)=211/0, (-)=480/0, (N)=309/0, vsi=1000/0
+  classify = 17580 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 44320 ms / 5321664 ms
+
+load test [155000,1000]
+  load = 26006 ms
+  corpus = 73% 24753/33505
+  clean(stop,min,max) = 12611
+  data = 296 ms
+  classify 511/1000
+  (+)=212/0, (-)=450/0, (N)=338/0, vsi=1000/0
+  classify = 17486 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 44104 ms / 5365768 ms
+
+load test [156000,1000]
+  load = 27799 ms
+  corpus = 73% 22640/30686
+  clean(stop,min,max) = 11343
+  data = 281 ms
+  classify 511/1000
+  (+)=248/0, (-)=445/0, (N)=307/0, vsi=1000/0
+  classify = 17456 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 45835 ms / 5411603 ms
+
+load test [157000,1000]
+  load = 27470 ms
+  corpus = 74% 25078/33793
+  clean(stop,min,max) = 12712
+  data = 312 ms
+  classify 511/999
+  (+)=242/0, (-)=441/0, (N)=316/0, vsi=999/0
+  classify = 17487 ms
+  data = 999
+  save to db = 282 ms
+  čas = 45553 ms / 5457157 ms
+
+load test [158000,1000]
+  load = 27424 ms
+  corpus = 74% 24456/32715
+  clean(stop,min,max) = 12357
+  data = 296 ms
+  classify 511/1000
+  (+)=246/0, (-)=448/0, (N)=306/0, vsi=1000/0
+  classify = 17503 ms
+  data = 1000
+  save to db = 391 ms
+  čas = 45615 ms / 5502773 ms
+
+load test [159000,1000]
+  load = 28049 ms
+  corpus = 75% 23958/31694
+  clean(stop,min,max) = 12143
+  data = 282 ms
+  classify 511/999
+  (+)=204/0, (-)=477/0, (N)=318/0, vsi=999/0
+  classify = 17456 ms
+  data = 999
+  save to db = 265 ms
+  čas = 46052 ms / 5548825 ms
+
+load test [160000,1000]
+  load = 28157 ms
+  corpus = 74% 24660/33033
+  clean(stop,min,max) = 12542
+  data = 313 ms
+  classify 511/1000
+  (+)=255/0, (-)=422/0, (N)=323/0, vsi=1000/0
+  classify = 17487 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 46257 ms / 5595083 ms
+
+load test [161000,1000]
+  load = 27876 ms
+  corpus = 73% 20727/28238
+  clean(stop,min,max) = 10490
+  data = 282 ms
+  classify 511/998
+  (+)=244/0, (-)=432/0, (N)=322/0, vsi=998/0
+  classify = 17378 ms
+  data = 998
+  save to db = 281 ms
+  čas = 45818 ms / 5640901 ms
+
+load test [162000,1000]
+  load = 28205 ms
+  corpus = 71% 15674/21963
+  clean(stop,min,max) = 7758
+  data = 234 ms
+  classify 511/1000
+  (+)=299/0, (-)=351/0, (N)=350/0, vsi=1000/0
+  classify = 17331 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 46053 ms / 5686955 ms
+
+load test [163000,1000]
+  load = 27830 ms
+  corpus = 75% 28164/37404
+  clean(stop,min,max) = 14600
+  data = 344 ms
+  classify 511/999
+  (+)=208/0, (-)=476/0, (N)=315/0, vsi=999/0
+  classify = 17533 ms
+  data = 999
+  save to db = 641 ms
+  čas = 46349 ms / 5733305 ms
+
+load test [164000,1000]
+  load = 28532 ms
+  corpus = 71% 17176/23970
+  clean(stop,min,max) = 8547
+  data = 234 ms
+  classify 511/998
+  (+)=260/0, (-)=376/0, (N)=362/0, vsi=998/0
+  classify = 17332 ms
+  data = 998
+  save to db = 250 ms
+  čas = 46348 ms / 5779654 ms
+
+load test [165000,1000]
+  load = 29062 ms
+  corpus = 72% 19349/26648
+  clean(stop,min,max) = 9675
+  data = 266 ms
+  classify 511/997
+  (+)=306/0, (-)=320/0, (N)=371/0, vsi=997/0
+  classify = 17347 ms
+  data = 997
+  save to db = 296 ms
+  čas = 46973 ms / 5826628 ms
+
+load test [166000,1000]
+  load = 28266 ms
+  corpus = 72% 23376/32085
+  clean(stop,min,max) = 11960
+  data = 313 ms
+  classify 511/1000
+  (+)=242/0, (-)=410/0, (N)=348/0, vsi=1000/0
+  classify = 17471 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 46334 ms / 5872962 ms
+
+load test [167000,1000]
+  load = 28875 ms
+  corpus = 72% 21562/29641
+  clean(stop,min,max) = 10887
+  data = 296 ms
+  classify 511/998
+  (+)=268/0, (-)=423/0, (N)=307/0, vsi=998/0
+  classify = 17410 ms
+  data = 998
+  save to db = 266 ms
+  čas = 46848 ms / 5919811 ms
+
+load test [168000,1000]
+  load = 28563 ms
+  corpus = 72% 17435/23987
+  clean(stop,min,max) = 8914
+  data = 235 ms
+  classify 511/998
+  (+)=259/0, (-)=364/0, (N)=375/0, vsi=998/0
+  classify = 17330 ms
+  data = 998
+  save to db = 282 ms
+  čas = 46411 ms / 5966223 ms
+
+load test [169000,1000]
+  load = 29078 ms
+  corpus = 75% 29069/38725
+  clean(stop,min,max) = 15102
+  data = 344 ms
+  classify 511/1000
+  (+)=175/0, (-)=487/0, (N)=338/0, vsi=1000/0
+  classify = 17564 ms
+  data = 1000
+  save to db = 267 ms
+  čas = 47255 ms / 6013478 ms
+
+load test [170000,1000]
+  load = 29171 ms
+  corpus = 72% 17246/23730
+  clean(stop,min,max) = 8737
+  data = 234 ms
+  classify 511/998
+  (+)=245/0, (-)=373/0, (N)=380/0, vsi=998/0
+  classify = 17315 ms
+  data = 998
+  save to db = 360 ms
+  čas = 47082 ms / 6060561 ms
+
+load test [171000,1000]
+  load = 28703 ms
+  corpus = 71% 14432/20163
+  clean(stop,min,max) = 7238
+  data = 218 ms
+  classify 511/995
+  (+)=322/0, (-)=326/0, (N)=347/0, vsi=995/0
+  classify = 17238 ms
+  data = 995
+  save to db = 281 ms
+  čas = 46442 ms / 6107003 ms
+
+load test [172000,1000]
+  load = 28907 ms
+  corpus = 71% 16706/23373
+  clean(stop,min,max) = 8344
+  data = 250 ms
+  classify 511/995
+  (+)=419/0, (-)=262/0, (N)=314/0, vsi=995/0
+  classify = 17285 ms
+  data = 995
+  save to db = 655 ms
+  čas = 47098 ms / 6154101 ms
+
+load test [173000,1000]
+  load = 29640 ms
+  corpus = 74% 26140/34943
+  clean(stop,min,max) = 13263
+  data = 312 ms
+  classify 511/997
+  (+)=241/0, (-)=409/0, (N)=347/0, vsi=997/0
+  classify = 17471 ms
+  data = 997
+  save to db = 282 ms
+  čas = 47707 ms / 6201809 ms
+
+load test [174000,1000]
+  load = 29547 ms
+  corpus = 75% 23986/31813
+  clean(stop,min,max) = 12100
+  data = 280 ms
+  classify 511/999
+  (+)=279/0, (-)=404/0, (N)=316/0, vsi=999/0
+  classify = 17457 ms
+  data = 999
+  save to db = 312 ms
+  čas = 47598 ms / 6249407 ms
+
+load test [175000,1000]
+  load = 28720 ms
+  corpus = 75% 26393/34932
+  clean(stop,min,max) = 13397
+  data = 312 ms
+  classify 511/1000
+  (+)=201/0, (-)=504/0, (N)=295/0, vsi=1000/0
+  classify = 17533 ms
+  data = 1000
+  save to db = 313 ms
+  čas = 46880 ms / 6296287 ms
+
+load test [176000,1000]
+  load = 30700 ms
+  corpus = 74% 24382/32819
+  clean(stop,min,max) = 12516
+  data = 327 ms
+  classify 511/1000
+  (+)=261/0, (-)=412/0, (N)=327/0, vsi=1000/0
+  classify = 17488 ms
+  data = 1000
+  save to db = 281 ms
+  čas = 48798 ms / 6345085 ms
+
+load test [177000,1000]
+  load = 30014 ms
+  corpus = 74% 23669/31806
+  clean(stop,min,max) = 12174
+  data = 297 ms
+  classify 511/1000
+  (+)=234/0, (-)=448/0, (N)=318/0, vsi=1000/0
+  classify = 17472 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 48081 ms / 6393167 ms
+
+load test [178000,1000]
+  load = 30779 ms
+  corpus = 71% 19654/27338
+  clean(stop,min,max) = 10158
+  data = 266 ms
+  classify 511/998
+  (+)=252/0, (-)=374/0, (N)=372/0, vsi=998/0
+  classify = 17378 ms
+  data = 998
+  save to db = 312 ms
+  čas = 48736 ms / 6441904 ms
+
+load test [179000,1000]
+  load = 30903 ms
+  corpus = 74% 25962/34986
+  clean(stop,min,max) = 13411
+  data = 312 ms
+  classify 511/998
+  (+)=222/0, (-)=452/0, (N)=324/0, vsi=998/0
+  classify = 17471 ms
+  data = 998
+  save to db = 312 ms
+  čas = 49016 ms / 6490921 ms
+
+load test [180000,1000]
+  load = 31512 ms
+  corpus = 73% 23530/31809
+  clean(stop,min,max) = 11960
+  data = 296 ms
+  classify 511/1000
+  (+)=200/0, (-)=450/0, (N)=350/0, vsi=1000/0
+  classify = 17472 ms
+  data = 1000
+  save to db = 297 ms
+  čas = 49578 ms / 6540500 ms
+
+load test [181000,1000]
+  load = 31434 ms
+  corpus = 74% 22915/30730
+  clean(stop,min,max) = 11535
+  data = 282 ms
+  classify 511/1000
+  (+)=260/0, (-)=414/0, (N)=326/0, vsi=1000/0
+  classify = 17456 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 49469 ms / 6589969 ms
+
+load test [182000,1000]
+  load = 31575 ms
+  corpus = 75% 23518/31047
+  clean(stop,min,max) = 11922
+  data = 281 ms
+  classify 511/997
+  (+)=304/0, (-)=362/0, (N)=331/0, vsi=997/0
+  classify = 17409 ms
+  data = 997
+  save to db = 780 ms
+  čas = 50046 ms / 6640016 ms
+
+load test [183000,1000]
+  load = 32135 ms
+  corpus = 74% 20213/27260
+  clean(stop,min,max) = 10190
+  data = 267 ms
+  classify 511/1000
+  (+)=266/0, (-)=385/0, (N)=349/0, vsi=1000/0
+  classify = 17408 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 50078 ms / 6690094 ms
+
+load test [184000,1000]
+  load = 33040 ms
+  corpus = 74% 26059/34893
+  clean(stop,min,max) = 13572
+  data = 328 ms
+  classify 511/1000
+  (+)=222/0, (-)=453/0, (N)=325/0, vsi=1000/0
+  classify = 17503 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 51185 ms / 6741279 ms
+
+load test [185000,1000]
+  load = 31917 ms
+  corpus = 73% 22394/30269
+  clean(stop,min,max) = 11209
+  data = 282 ms
+  classify 511/998
+  (+)=249/0, (-)=433/0, (N)=316/0, vsi=998/0
+  classify = 17424 ms
+  data = 998
+  save to db = 297 ms
+  čas = 49922 ms / 6791202 ms
+
+load test [186000,1000]
+  load = 32915 ms
+  corpus = 75% 26964/35938
+  clean(stop,min,max) = 13872
+  data = 328 ms
+  classify 511/1000
+  (+)=215/0, (-)=476/0, (N)=309/0, vsi=1000/0
+  classify = 17534 ms
+  data = 1000
+  save to db = 281 ms
+  čas = 51060 ms / 6842263 ms
+
+load test [187000,1000]
+  load = 33509 ms
+  corpus = 72% 16343/22472
+  clean(stop,min,max) = 7803
+  data = 219 ms
+  classify 511/996
+  (+)=281/0, (-)=412/0, (N)=303/0, vsi=996/0
+  classify = 17284 ms
+  data = 996
+  save to db = 282 ms
+  čas = 51295 ms / 6893558 ms
+
+load test [188000,1000]
+  load = 32977 ms
+  corpus = 75% 22381/29751
+  clean(stop,min,max) = 11513
+  data = 266 ms
+  classify 511/999
+  (+)=249/0, (-)=428/0, (N)=322/0, vsi=999/0
+  classify = 17425 ms
+  data = 999
+  save to db = 625 ms
+  čas = 51295 ms / 6944853 ms
+
+load test [189000,1000]
+  load = 34023 ms
+  corpus = 74% 24616/33081
+  clean(stop,min,max) = 12626
+  data = 296 ms
+  classify 511/1000
+  (+)=171/0, (-)=523/0, (N)=306/0, vsi=1000/0
+  classify = 17488 ms
+  data = 1000
+  save to db = 764 ms
+  čas = 52573 ms / 6997427 ms
+
+load test [190000,1000]
+  load = 32634 ms
+  corpus = 69% 11075/15856
+  clean(stop,min,max) = 5268
+  data = 173 ms
+  classify 511/998
+  (+)=226/0, (-)=409/0, (N)=363/0, vsi=998/0
+  classify = 17221 ms
+  data = 998
+  save to db = 266 ms
+  čas = 50296 ms / 7047723 ms
+
+load test [191000,1000]
+  load = 33898 ms
+  corpus = 73% 21756/29739
+  clean(stop,min,max) = 10721
+  data = 267 ms
+  classify 511/998
+  (+)=193/0, (-)=482/0, (N)=323/0, vsi=998/0
+  classify = 17424 ms
+  data = 998
+  save to db = 327 ms
+  čas = 51918 ms / 7099641 ms
+
+load test [192000,1000]
+  load = 33525 ms
+  corpus = 75% 21316/28306
+  clean(stop,min,max) = 10627
+  data = 266 ms
+  classify 511/1000
+  (+)=252/0, (-)=469/0, (N)=279/0, vsi=1000/0
+  classify = 17424 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 51482 ms / 7151124 ms
+
+load test [193000,1000]
+  load = 33961 ms
+  corpus = 73% 16266/22273
+  clean(stop,min,max) = 8194
+  data = 235 ms
+  classify 511/998
+  (+)=210/0, (-)=450/0, (N)=338/0, vsi=998/0
+  classify = 17285 ms
+  data = 998
+  save to db = 280 ms
+  čas = 51763 ms / 7202887 ms
+
+load test [194000,1000]
+  load = 33961 ms
+  corpus = 75% 19868/26364
+  clean(stop,min,max) = 10046
+  data = 235 ms
+  classify 511/999
+  (+)=214/0, (-)=490/0, (N)=295/0, vsi=999/0
+  classify = 17378 ms
+  data = 999
+  save to db = 702 ms
+  čas = 52277 ms / 7255164 ms
+
+load test [195000,1000]
+  load = 34273 ms
+  corpus = 74% 21357/28829
+  clean(stop,min,max) = 10864
+  data = 267 ms
+  classify 511/999
+  (+)=245/0, (-)=419/0, (N)=335/0, vsi=999/0
+  classify = 17410 ms
+  data = 999
+  save to db = 312 ms
+  čas = 52278 ms / 7307443 ms
+
+load test [196000,1000]
+  load = 34569 ms
+  corpus = 70% 10256/14562
+  clean(stop,min,max) = 5028
+  data = 157 ms
+  classify 511/996
+  (+)=449/0, (-)=231/0, (N)=316/0, vsi=996/0
+  classify = 17159 ms
+  data = 996
+  save to db = 360 ms
+  čas = 52246 ms / 7359689 ms
+
+load test [197000,1000]
+  load = 34007 ms
+  corpus = 75% 24686/32646
+  clean(stop,min,max) = 12979
+  data = 282 ms
+  classify 511/997
+  (+)=232/0, (-)=420/0, (N)=345/0, vsi=997/0
+  classify = 17424 ms
+  data = 997
+  save to db = 312 ms
+  čas = 52027 ms / 7411717 ms
+
+load test [198000,1000]
+  load = 34226 ms
+  corpus = 75% 21490/28479
+  clean(stop,min,max) = 10857
+  data = 266 ms
+  classify 511/999
+  (+)=318/0, (-)=363/0, (N)=318/0, vsi=999/0
+  classify = 17410 ms
+  data = 999
+  save to db = 405 ms
+  čas = 52309 ms / 7464026 ms
+
+load test [199000,1000]
+  load = 33525 ms
+  corpus = 74% 19239/25933
+  clean(stop,min,max) = 9671
+  data = 250 ms
+  classify 511/998
+  (+)=261/0, (-)=388/0, (N)=349/0, vsi=998/0
+  classify = 17348 ms
+  data = 998
+  save to db = 327 ms
+  čas = 51450 ms / 7515476 ms
+
+load test [200000,1000]
+  load = 34383 ms
+  corpus = 73% 18820/25550
+  clean(stop,min,max) = 9564
+  data = 250 ms
+  classify 511/997
+  (+)=282/0, (-)=394/0, (N)=321/0, vsi=997/0
+  classify = 17332 ms
+  data = 997
+  save to db = 296 ms
+  čas = 52262 ms / 7567739 ms
+
+load test [201000,1000]
+  load = 34974 ms
+  corpus = 75% 27053/35944
+  clean(stop,min,max) = 13543
+  data = 312 ms
+  classify 511/998
+  (+)=236/0, (-)=416/0, (N)=346/0, vsi=998/0
+  classify = 17534 ms
+  data = 998
+  save to db = 312 ms
+  čas = 53151 ms / 7620890 ms
+
+load test [202000,1000]
+  load = 34664 ms
+  corpus = 74% 20313/27316
+  clean(stop,min,max) = 10381
+  data = 250 ms
+  classify 511/1000
+  (+)=230/0, (-)=462/0, (N)=308/0, vsi=1000/0
+  classify = 17393 ms
+  data = 1000
+  save to db = 1031 ms
+  čas = 53338 ms / 7674229 ms
+
+load test [203000,1000]
+  load = 35006 ms
+  corpus = 75% 23606/31418
+  clean(stop,min,max) = 11681
+  data = 282 ms
+  classify 511/998
+  (+)=241/0, (-)=423/0, (N)=334/0, vsi=998/0
+  classify = 17440 ms
+  data = 998
+  save to db = 296 ms
+  čas = 53026 ms / 7727256 ms
+
+load test [204000,1000]
+  load = 35069 ms
+  corpus = 74% 24185/32578
+  clean(stop,min,max) = 12229
+  data = 312 ms
+  classify 511/999
+  (+)=224/0, (-)=443/0, (N)=332/0, vsi=999/0
+  classify = 17457 ms
+  data = 999
+  save to db = 328 ms
+  čas = 53167 ms / 7780423 ms
+
+load test [205000,1000]
+  load = 36536 ms
+  corpus = 71% 24747/34465
+  clean(stop,min,max) = 12205
+  data = 312 ms
+  classify 511/1000
+  (+)=153/0, (-)=527/0, (N)=320/0, vsi=1000/0
+  classify = 17518 ms
+  data = 1000
+  save to db = 703 ms
+  čas = 55085 ms / 7835509 ms
+
+load test [206000,1000]
+  load = 35755 ms
+  corpus = 73% 21321/29024
+  clean(stop,min,max) = 10870
+  data = 266 ms
+  classify 511/1000
+  (+)=185/0, (-)=509/0, (N)=306/0, vsi=1000/0
+  classify = 17424 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 53759 ms / 7889269 ms
+
+load test [207000,1000]
+  load = 37049 ms
+  corpus = 73% 29719/40470
+  clean(stop,min,max) = 14761
+  data = 375 ms
+  classify 511/1000
+  (+)=168/0, (-)=542/0, (N)=290/0, vsi=1000/0
+  classify = 17613 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 55351 ms / 7944620 ms
+
+load test [208000,1000]
+  load = 36191 ms
+  corpus = 72% 25787/35741
+  clean(stop,min,max) = 12734
+  data = 344 ms
+  classify 511/998
+  (+)=226/0, (-)=450/0, (N)=322/0, vsi=998/0
+  classify = 17503 ms
+  data = 998
+  save to db = 297 ms
+  čas = 54336 ms / 7998957 ms
+
+load test [209000,1000]
+  load = 35473 ms
+  corpus = 75% 24318/32386
+  clean(stop,min,max) = 12004
+  data = 297 ms
+  classify 511/998
+  (+)=189/0, (-)=505/0, (N)=304/0, vsi=998/0
+  classify = 17440 ms
+  data = 998
+  save to db = 312 ms
+  čas = 53525 ms / 8052482 ms
+
+load test [210000,1000]
+  load = 36707 ms
+  corpus = 73% 14350/19484
+  clean(stop,min,max) = 7095
+  data = 187 ms
+  classify 511/999
+  (+)=227/0, (-)=446/0, (N)=326/0, vsi=999/0
+  classify = 17285 ms
+  data = 999
+  save to db = 297 ms
+  čas = 54477 ms / 8106960 ms
+
+load test [211000,1000]
+  load = 36753 ms
+  corpus = 74% 23517/31437
+  clean(stop,min,max) = 11919
+  data = 298 ms
+  classify 511/1000
+  (+)=220/0, (-)=443/0, (N)=337/0, vsi=1000/0
+  classify = 17455 ms
+  data = 1000
+  save to db = 328 ms
+  čas = 54835 ms / 8161796 ms
+
+load test [212000,1000]
+  load = 36956 ms
+  corpus = 73% 27168/36727
+  clean(stop,min,max) = 13941
+  data = 328 ms
+  classify 511/999
+  (+)=217/0, (-)=459/0, (N)=323/0, vsi=999/0
+  classify = 17533 ms
+  data = 999
+  save to db = 282 ms
+  čas = 55101 ms / 8216897 ms
+
+load test [213000,1000]
+  load = 37003 ms
+  corpus = 73% 23474/31897
+  clean(stop,min,max) = 11795
+  data = 297 ms
+  classify 511/1000
+  (+)=188/0, (-)=497/0, (N)=315/0, vsi=1000/0
+  classify = 17472 ms
+  data = 1000
+  save to db = 375 ms
+  čas = 55148 ms / 8272045 ms
+
+load test [214000,1000]
+  load = 36441 ms
+  corpus = 75% 19268/25598
+  clean(stop,min,max) = 9452
+  data = 235 ms
+  classify 511/998
+  (+)=204/0, (-)=486/0, (N)=308/0, vsi=998/0
+  classify = 17346 ms
+  data = 998
+  save to db = 282 ms
+  čas = 54305 ms / 8326351 ms
+
+load test [215000,1000]
+  load = 36161 ms
+  corpus = 75% 34375/45240
+  clean(stop,min,max) = 17673
+  data = 391 ms
+  classify 511/1000
+  (+)=162/0, (-)=582/0, (N)=256/0, vsi=1000/0
+  classify = 17642 ms
+  data = 1000
+  save to db = 672 ms
+  čas = 54867 ms / 8381218 ms
+
+load test [216000,1000]
+  load = 38297 ms
+  corpus = 72% 24150/33099
+  clean(stop,min,max) = 12278
+  data = 312 ms
+  classify 511/1000
+  (+)=175/0, (-)=499/0, (N)=326/0, vsi=1000/0
+  classify = 17488 ms
+  data = 1000
+  save to db = 671 ms
+  čas = 56770 ms / 8437989 ms
+
+load test [217000,1000]
+  load = 38220 ms
+  corpus = 72% 18212/25124
+  clean(stop,min,max) = 8753
+  data = 250 ms
+  classify 511/1000
+  (+)=268/0, (-)=376/0, (N)=356/0, vsi=1000/0
+  classify = 17378 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 56161 ms / 8494151 ms
+
+load test [218000,1000]
+  load = 37798 ms
+  corpus = 73% 22283/30314
+  clean(stop,min,max) = 11194
+  data = 282 ms
+  classify 511/998
+  (+)=238/0, (-)=430/0, (N)=330/0, vsi=998/0
+  classify = 17425 ms
+  data = 998
+  save to db = 280 ms
+  čas = 55786 ms / 8549937 ms
+
+load test [219000,1000]
+  load = 36926 ms
+  corpus = 72% 17966/24791
+  clean(stop,min,max) = 9029
+  data = 234 ms
+  classify 511/1000
+  (+)=210/0, (-)=423/0, (N)=367/0, vsi=1000/0
+  classify = 17378 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 54821 ms / 8604759 ms
+
+load test [220000,1000]
+  load = 37766 ms
+  corpus = 75% 27157/36165
+  clean(stop,min,max) = 13969
+  data = 328 ms
+  classify 511/999
+  (+)=224/0, (-)=473/0, (N)=302/0, vsi=999/0
+  classify = 17519 ms
+  data = 999
+  save to db = 655 ms
+  čas = 56270 ms / 8661029 ms
+
+load test [221000,1000]
+  load = 39172 ms
+  corpus = 74% 24690/33111
+  clean(stop,min,max) = 12798
+  data = 296 ms
+  classify 511/998
+  (+)=232/0, (-)=484/0, (N)=282/0, vsi=998/0
+  classify = 17457 ms
+  data = 998
+  save to db = 358 ms
+  čas = 57285 ms / 8718315 ms
+
+load test [222000,1000]
+  load = 36801 ms
+  corpus = 74% 19503/26126
+  clean(stop,min,max) = 9825
+  data = 250 ms
+  classify 511/998
+  (+)=178/0, (-)=482/0, (N)=338/0, vsi=998/0
+  classify = 17347 ms
+  data = 998
+  save to db = 312 ms
+  čas = 54711 ms / 8773026 ms
+
+load test [223000,1000]
+  load = 37596 ms
+  corpus = 74% 35208/47202
+  clean(stop,min,max) = 18236
+  data = 405 ms
+  classify 511/1000
+  (+)=137/0, (-)=584/0, (N)=279/0, vsi=1000/0
+  classify = 17690 ms
+  data = 1000
+  save to db = 328 ms
+  čas = 56021 ms / 8829048 ms
+
+load test [224000,1000]
+  load = 37283 ms
+  corpus = 74% 27142/36401
+  clean(stop,min,max) = 13875
+  data = 328 ms
+  classify 511/999
+  (+)=222/0, (-)=479/0, (N)=298/0, vsi=999/0
+  classify = 17519 ms
+  data = 999
+  save to db = 312 ms
+  čas = 55444 ms / 8884493 ms
+
+load test [225000,1000]
+  load = 37049 ms
+  corpus = 74% 27831/37143
+  clean(stop,min,max) = 13943
+  data = 344 ms
+  classify 511/1000
+  (+)=172/0, (-)=525/0, (N)=303/0, vsi=1000/0
+  classify = 17549 ms
+  data = 1000
+  save to db = 328 ms
+  čas = 55273 ms / 8939766 ms
+
+load test [226000,1000]
+  load = 37657 ms
+  corpus = 72% 12660/17500
+  clean(stop,min,max) = 6281
+  data = 187 ms
+  classify 511/998
+  (+)=231/0, (-)=447/0, (N)=320/0, vsi=998/0
+  classify = 17223 ms
+  data = 998
+  save to db = 375 ms
+  čas = 55444 ms / 8995210 ms
+
+load test [227000,1000]
+  load = 37097 ms
+  corpus = 75% 40283/53396
+  clean(stop,min,max) = 20860
+  data = 468 ms
+  classify 511/1000
+  (+)=132/0, (-)=614/0, (N)=254/0, vsi=1000/0
+  classify = 17784 ms
+  data = 1000
+  save to db = 281 ms
+  čas = 55631 ms / 9050842 ms
+
+load test [228000,1000]
+  load = 37907 ms
+  corpus = 76% 33212/43447
+  clean(stop,min,max) = 16941
+  data = 360 ms
+  classify 511/998
+  (+)=159/0, (-)=555/0, (N)=284/0, vsi=998/0
+  classify = 17613 ms
+  data = 998
+  save to db = 281 ms
+  čas = 56177 ms / 9107019 ms
+
+load test [229000,1000]
+  load = 39515 ms
+  corpus = 73% 24773/33619
+  clean(stop,min,max) = 12524
+  data = 312 ms
+  classify 511/998
+  (+)=214/0, (-)=465/0, (N)=319/0, vsi=998/0
+  classify = 17456 ms
+  data = 998
+  save to db = 250 ms
+  čas = 57550 ms / 9164570 ms
+
+load test [230000,1000]
+  load = 38796 ms
+  corpus = 73% 21194/28668
+  clean(stop,min,max) = 10605
+  data = 282 ms
+  classify 511/999
+  (+)=199/0, (-)=489/0, (N)=311/0, vsi=999/0
+  classify = 17393 ms
+  data = 999
+  save to db = 282 ms
+  čas = 56754 ms / 9221325 ms
+
+load test [231000,1000]
+  load = 37206 ms
+  corpus = 74% 22681/30411
+  clean(stop,min,max) = 11381
+  data = 281 ms
+  classify 511/1000
+  (+)=271/0, (-)=460/0, (N)=269/0, vsi=1000/0
+  classify = 17456 ms
+  data = 1000
+  save to db = 641 ms
+  čas = 55585 ms / 9276910 ms
+
+load test [232000,1000]
+  load = 38562 ms
+  corpus = 74% 21998/29726
+  clean(stop,min,max) = 10916
+  data = 282 ms
+  classify 511/1000
+  (+)=231/0, (-)=424/0, (N)=345/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 655 ms
+  čas = 56941 ms / 9333851 ms
+
+load test [233000,1000]
+  load = 38595 ms
+  corpus = 73% 29032/39369
+  clean(stop,min,max) = 14683
+  data = 358 ms
+  classify 511/999
+  (+)=198/0, (-)=513/0, (N)=288/0, vsi=999/0
+  classify = 17582 ms
+  data = 999
+  save to db = 266 ms
+  čas = 56802 ms / 9390654 ms
+
+load test [234000,1000]
+  load = 39156 ms
+  corpus = 75% 35041/46412
+  clean(stop,min,max) = 17904
+  data = 405 ms
+  classify 511/1000
+  (+)=182/0, (-)=544/0, (N)=274/0, vsi=1000/0
+  classify = 17674 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 57535 ms / 9448189 ms
+
+load test [235000,1000]
+  load = 38827 ms
+  corpus = 73% 21588/29238
+  clean(stop,min,max) = 10692
+  data = 282 ms
+  classify 511/999
+  (+)=209/0, (-)=465/0, (N)=325/0, vsi=999/0
+  classify = 17424 ms
+  data = 999
+  save to db = 532 ms
+  čas = 57066 ms / 9505256 ms
+
+load test [236000,1000]
+  load = 39811 ms
+  corpus = 73% 27753/37660
+  clean(stop,min,max) = 14221
+  data = 343 ms
+  classify 511/999
+  (+)=162/0, (-)=519/0, (N)=318/0, vsi=999/0
+  classify = 17549 ms
+  data = 999
+  save to db = 298 ms
+  čas = 58003 ms / 9563259 ms
+
+load test [237000,1000]
+  load = 40309 ms
+  corpus = 75% 25853/34424
+  clean(stop,min,max) = 13164
+  data = 297 ms
+  classify 511/998
+  (+)=223/0, (-)=506/0, (N)=269/0, vsi=998/0
+  classify = 17471 ms
+  data = 998
+  save to db = 532 ms
+  čas = 58611 ms / 9621870 ms
+
+load test [238000,1000]
+  load = 39576 ms
+  corpus = 74% 23925/32262
+  clean(stop,min,max) = 12157
+  data = 296 ms
+  classify 511/1000
+  (+)=253/0, (-)=405/0, (N)=342/0, vsi=1000/0
+  classify = 17473 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 57659 ms / 9679529 ms
+
+load test [239000,1000]
+  load = 38703 ms
+  corpus = 73% 24741/33551
+  clean(stop,min,max) = 12535
+  data = 312 ms
+  classify 511/1000
+  (+)=168/0, (-)=508/0, (N)=324/0, vsi=1000/0
+  classify = 17503 ms
+  data = 1000
+  save to db = 766 ms
+  čas = 57285 ms / 9736815 ms
+
+load test [240000,1000]
+  load = 39904 ms
+  corpus = 75% 31874/42166
+  clean(stop,min,max) = 16331
+  data = 358 ms
+  classify 511/1000
+  (+)=199/0, (-)=463/0, (N)=338/0, vsi=1000/0
+  classify = 17629 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 58206 ms / 9795021 ms
+
+load test [241000,1000]
+  load = 39685 ms
+  corpus = 74% 25339/33988
+  clean(stop,min,max) = 12668
+  data = 312 ms
+  classify 511/999
+  (+)=242/0, (-)=459/0, (N)=298/0, vsi=999/0
+  classify = 17488 ms
+  data = 999
+  save to db = 312 ms
+  čas = 57799 ms / 9852821 ms
+
+load test [242000,1000]
+  load = 40325 ms
+  corpus = 74% 24736/33379
+  clean(stop,min,max) = 12703
+  data = 328 ms
+  classify 511/1000
+  (+)=141/0, (-)=538/0, (N)=321/0, vsi=1000/0
+  classify = 17487 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 58424 ms / 9911245 ms
+
+load test [243000,1000]
+  load = 40092 ms
+  corpus = 75% 32154/42717
+  clean(stop,min,max) = 16702
+  data = 375 ms
+  classify 511/999
+  (+)=195/0, (-)=507/0, (N)=297/0, vsi=999/0
+  classify = 17612 ms
+  data = 999
+  save to db = 250 ms
+  čas = 58329 ms / 9969575 ms
+
+load test [244000,1000]
+  load = 40233 ms
+  corpus = 73% 23236/31613
+  clean(stop,min,max) = 11687
+  data = 296 ms
+  classify 511/998
+  (+)=244/0, (-)=449/0, (N)=305/0, vsi=998/0
+  classify = 17440 ms
+  data = 998
+  save to db = 251 ms
+  čas = 58222 ms / 10027797 ms
+
+load test [245000,1000]
+  load = 41417 ms
+  corpus = 72% 17938/24680
+  clean(stop,min,max) = 9043
+  data = 234 ms
+  classify 511/1000
+  (+)=161/0, (-)=525/0, (N)=314/0, vsi=1000/0
+  classify = 17378 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 59312 ms / 10087110 ms
+
+load test [246000,1000]
+  load = 40200 ms
+  corpus = 75% 26311/35065
+  clean(stop,min,max) = 13392
+  data = 328 ms
+  classify 511/1000
+  (+)=136/0, (-)=570/0, (N)=294/0, vsi=1000/0
+  classify = 17503 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 58329 ms / 10145440 ms
+
+load test [247000,1000]
+  load = 40966 ms
+  corpus = 76% 36105/47035
+  clean(stop,min,max) = 18085
+  data = 406 ms
+  classify 511/1000
+  (+)=99/0, (-)=640/0, (N)=261/0, vsi=1000/0
+  classify = 17706 ms
+  data = 1000
+  save to db = 280 ms
+  čas = 59359 ms / 10204799 ms
+
+load test [248000,1000]
+  load = 41138 ms
+  corpus = 75% 23954/31851
+  clean(stop,min,max) = 12395
+  data = 282 ms
+  classify 511/999
+  (+)=205/0, (-)=515/0, (N)=279/0, vsi=999/0
+  classify = 17440 ms
+  data = 999
+  save to db = 282 ms
+  čas = 59158 ms / 10263958 ms
+
+load test [249000,1000]
+  load = 41651 ms
+  corpus = 72% 16237/22515
+  clean(stop,min,max) = 8114
+  data = 218 ms
+  classify 511/999
+  (+)=345/0, (-)=350/0, (N)=304/0, vsi=999/0
+  classify = 17315 ms
+  data = 999
+  save to db = 250 ms
+  čas = 59452 ms / 10323411 ms
+
+load test [250000,1000]
+  load = 41730 ms
+  corpus = 74% 23313/31363
+  clean(stop,min,max) = 11885
+  data = 281 ms
+  classify 511/997
+  (+)=263/0, (-)=395/0, (N)=339/0, vsi=997/0
+  classify = 17410 ms
+  data = 997
+  save to db = 312 ms
+  čas = 59735 ms / 10383146 ms
+
+load test [251000,1000]
+  load = 40777 ms
+  corpus = 75% 30956/41255
+  clean(stop,min,max) = 15910
+  data = 375 ms
+  classify 511/999
+  (+)=166/0, (-)=542/0, (N)=291/0, vsi=999/0
+  classify = 17597 ms
+  data = 999
+  save to db = 266 ms
+  čas = 59016 ms / 10442163 ms
+
+load test [252000,1000]
+  load = 41542 ms
+  corpus = 74% 26232/35199
+  clean(stop,min,max) = 13068
+  data = 328 ms
+  classify 511/1000
+  (+)=227/0, (-)=480/0, (N)=293/0, vsi=1000/0
+  classify = 17518 ms
+  data = 1000
+  save to db = 391 ms
+  čas = 59780 ms / 10501944 ms
+
+load test [253000,1000]
+  load = 41169 ms
+  corpus = 74% 21657/28985
+  clean(stop,min,max) = 11061
+  data = 280 ms
+  classify 511/996
+  (+)=274/0, (-)=421/0, (N)=301/0, vsi=996/0
+  classify = 17362 ms
+  data = 996
+  save to db = 266 ms
+  čas = 59078 ms / 10561023 ms
+
+load test [254000,1000]
+  load = 42136 ms
+  corpus = 74% 24727/33376
+  clean(stop,min,max) = 12502
+  data = 312 ms
+  classify 511/1000
+  (+)=301/0, (-)=389/0, (N)=310/0, vsi=1000/0
+  classify = 17487 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 60233 ms / 10621256 ms
+
+load test [255000,1000]
+  load = 43758 ms
+  corpus = 73% 24056/32822
+  clean(stop,min,max) = 12215
+  data = 312 ms
+  classify 511/999
+  (+)=203/0, (-)=480/0, (N)=316/0, vsi=999/0
+  classify = 17471 ms
+  data = 999
+  save to db = 298 ms
+  čas = 61841 ms / 10683098 ms
+
+load test [256000,1000]
+  load = 42697 ms
+  corpus = 74% 28791/38742
+  clean(stop,min,max) = 14444
+  data = 344 ms
+  classify 511/999
+  (+)=183/0, (-)=533/0, (N)=283/0, vsi=999/0
+  classify = 17565 ms
+  data = 999
+  save to db = 312 ms
+  čas = 60920 ms / 10744018 ms
+
+load test [257000,1000]
+  load = 42431 ms
+  corpus = 75% 26086/34771
+  clean(stop,min,max) = 13275
+  data = 312 ms
+  classify 511/999
+  (+)=192/0, (-)=485/0, (N)=322/0, vsi=999/0
+  classify = 17503 ms
+  data = 999
+  save to db = 296 ms
+  čas = 60544 ms / 10804562 ms
+
+load test [258000,1000]
+  load = 41887 ms
+  corpus = 74% 22665/30616
+  clean(stop,min,max) = 11314
+  data = 281 ms
+  classify 511/999
+  (+)=185/0, (-)=503/0, (N)=311/0, vsi=999/0
+  classify = 17440 ms
+  data = 999
+  save to db = 297 ms
+  čas = 59907 ms / 10864470 ms
+
+load test [259000,1000]
+  load = 42775 ms
+  corpus = 74% 21497/28845
+  clean(stop,min,max) = 10948
+  data = 281 ms
+  classify 511/999
+  (+)=195/0, (-)=472/0, (N)=332/0, vsi=999/0
+  classify = 17394 ms
+  data = 999
+  save to db = 328 ms
+  čas = 60779 ms / 10925249 ms
+
+load test [260000,1000]
+  load = 41559 ms
+  corpus = 74% 23653/31880
+  clean(stop,min,max) = 12035
+  data = 296 ms
+  classify 511/1000
+  (+)=199/0, (-)=484/0, (N)=317/0, vsi=1000/0
+  classify = 17472 ms
+  data = 1000
+  save to db = 297 ms
+  čas = 59625 ms / 10984875 ms
+
+load test [261000,1000]
+  load = 42291 ms
+  corpus = 75% 22354/29689
+  clean(stop,min,max) = 11294
+  data = 266 ms
+  classify 511/997
+  (+)=243/0, (-)=409/0, (N)=345/0, vsi=997/0
+  classify = 17394 ms
+  data = 997
+  save to db = 280 ms
+  čas = 60233 ms / 11045108 ms
+
+load test [262000,1000]
+  load = 43523 ms
+  corpus = 74% 22188/29779
+  clean(stop,min,max) = 11170
+  data = 298 ms
+  classify 511/999
+  (+)=267/0, (-)=425/0, (N)=307/0, vsi=999/0
+  classify = 17424 ms
+  data = 999
+  save to db = 296 ms
+  čas = 61543 ms / 11106651 ms
+
+load test [263000,1000]
+  load = 43259 ms
+  corpus = 75% 27020/35773
+  clean(stop,min,max) = 13732
+  data = 312 ms
+  classify 511/1000
+  (+)=215/0, (-)=471/0, (N)=314/0, vsi=1000/0
+  classify = 17519 ms
+  data = 1000
+  save to db = 328 ms
+  čas = 61435 ms / 11168087 ms
+
+load test [264000,1000]
+  load = 42759 ms
+  corpus = 75% 28843/38265
+  clean(stop,min,max) = 14956
+  data = 343 ms
+  classify 511/998
+  (+)=180/0, (-)=484/0, (N)=334/0, vsi=998/0
+  classify = 17535 ms
+  data = 998
+  save to db = 280 ms
+  čas = 60919 ms / 11229006 ms
+
+load test [265000,1000]
+  load = 43259 ms
+  corpus = 73% 21445/29046
+  clean(stop,min,max) = 10854
+  data = 266 ms
+  classify 511/1000
+  (+)=166/0, (-)=499/0, (N)=335/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 61264 ms / 11290271 ms
+
+load test [266000,1000]
+  load = 43632 ms
+  corpus = 74% 25575/34273
+  clean(stop,min,max) = 13188
+  data = 296 ms
+  classify 511/998
+  (+)=217/0, (-)=468/0, (N)=313/0, vsi=998/0
+  classify = 17472 ms
+  data = 998
+  save to db = 282 ms
+  čas = 61684 ms / 11351955 ms
+
+load test [267000,1000]
+  load = 44444 ms
+  corpus = 75% 22806/30346
+  clean(stop,min,max) = 11435
+  data = 266 ms
+  classify 511/999
+  (+)=262/0, (-)=405/0, (N)=332/0, vsi=999/0
+  classify = 17424 ms
+  data = 999
+  save to db = 282 ms
+  čas = 62417 ms / 11414373 ms
+
+load test [268000,1000]
+  load = 43383 ms
+  corpus = 74% 21016/28208
+  clean(stop,min,max) = 10506
+  data = 250 ms
+  classify 511/997
+  (+)=223/0, (-)=439/0, (N)=335/0, vsi=997/0
+  classify = 17379 ms
+  data = 997
+  save to db = 327 ms
+  čas = 61340 ms / 11475713 ms
+
+load test [269000,1000]
+  load = 44460 ms
+  corpus = 73% 25314/34256
+  clean(stop,min,max) = 12621
+  data = 312 ms
+  classify 511/999
+  (+)=197/0, (-)=475/0, (N)=327/0, vsi=999/0
+  classify = 17504 ms
+  data = 999
+  save to db = 312 ms
+  čas = 62590 ms / 11538304 ms
+
+load test [270000,1000]
+  load = 43507 ms
+  corpus = 74% 21878/29523
+  clean(stop,min,max) = 10716
+  data = 282 ms
+  classify 511/1000
+  (+)=206/0, (-)=505/0, (N)=289/0, vsi=1000/0
+  classify = 17455 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 61543 ms / 11599848 ms
+
+load test [271000,1000]
+  load = 43368 ms
+  corpus = 73% 19687/26873
+  clean(stop,min,max) = 9822
+  data = 266 ms
+  classify 511/999
+  (+)=351/0, (-)=343/0, (N)=305/0, vsi=999/0
+  classify = 17378 ms
+  data = 999
+  save to db = 641 ms
+  čas = 61653 ms / 11661501 ms
+
+load test [272000,1000]
+  load = 80214 ms
+  corpus = 74% 20030/26893
+  clean(stop,min,max) = 10044
+  data = 250 ms
+  classify 511/998
+  (+)=263/0, (-)=419/0, (N)=316/0, vsi=998/0
+  classify = 17534 ms
+  data = 998
+  save to db = 297 ms
+  čas = 98297 ms / 11759799 ms
+
+load test [273000,1000]
+  load = 48485 ms
+  corpus = 74% 30288/40846
+  clean(stop,min,max) = 15280
+  data = 358 ms
+  classify 511/999
+  (+)=196/0, (-)=498/0, (N)=305/0, vsi=999/0
+  classify = 17596 ms
+  data = 999
+  save to db = 312 ms
+  čas = 66753 ms / 11826552 ms
+
+load test [274000,1000]
+  load = 44944 ms
+  corpus = 75% 30546/40475
+  clean(stop,min,max) = 15501
+  data = 344 ms
+  classify 511/999
+  (+)=196/0, (-)=486/0, (N)=317/0, vsi=999/0
+  classify = 17580 ms
+  data = 999
+  save to db = 328 ms
+  čas = 63213 ms / 11889766 ms
+
+load test [275000,1000]
+  load = 44101 ms
+  corpus = 74% 18174/24404
+  clean(stop,min,max) = 9088
+  data = 235 ms
+  classify 511/999
+  (+)=367/0, (-)=312/0, (N)=320/0, vsi=999/0
+  classify = 17346 ms
+  data = 999
+  save to db = 298 ms
+  čas = 61981 ms / 11951748 ms
+
+load test [276000,1000]
+  load = 44755 ms
+  corpus = 74% 30134/40385
+  clean(stop,min,max) = 15422
+  data = 360 ms
+  classify 511/1000
+  (+)=278/0, (-)=437/0, (N)=285/0, vsi=1000/0
+  classify = 17596 ms
+  data = 1000
+  save to db = 328 ms
+  čas = 63040 ms / 12014789 ms
+
+load test [277000,1000]
+  load = 47158 ms
+  corpus = 75% 30065/40013
+  clean(stop,min,max) = 15003
+  data = 360 ms
+  classify 511/1000
+  (+)=207/0, (-)=476/0, (N)=317/0, vsi=1000/0
+  classify = 17596 ms
+  data = 1000
+  save to db = 718 ms
+  čas = 65834 ms / 12080623 ms
+
+load test [278000,1000]
+  load = 45863 ms
+  corpus = 74% 21322/28473
+  clean(stop,min,max) = 10569
+  data = 266 ms
+  classify 511/999
+  (+)=335/0, (-)=381/0, (N)=283/0, vsi=999/0
+  classify = 17409 ms
+  data = 999
+  save to db = 297 ms
+  čas = 63837 ms / 12144460 ms
+
+load test [279000,1000]
+  load = 45801 ms
+  corpus = 74% 23929/32061
+  clean(stop,min,max) = 12484
+  data = 312 ms
+  classify 511/999
+  (+)=344/0, (-)=356/0, (N)=299/0, vsi=999/0
+  classify = 17440 ms
+  data = 999
+  save to db = 328 ms
+  čas = 63884 ms / 12208345 ms
+
+load test [280000,1000]
+  load = 45521 ms
+  corpus = 73% 22884/31153
+  clean(stop,min,max) = 11621
+  data = 296 ms
+  classify 511/997
+  (+)=284/0, (-)=384/0, (N)=329/0, vsi=997/0
+  classify = 17409 ms
+  data = 997
+  save to db = 344 ms
+  čas = 63572 ms / 12271917 ms
+
+load test [281000,1000]
+  load = 45661 ms
+  corpus = 75% 26775/35470
+  clean(stop,min,max) = 13565
+  data = 328 ms
+  classify 511/1000
+  (+)=151/0, (-)=547/0, (N)=302/0, vsi=1000/0
+  classify = 17519 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 63822 ms / 12335739 ms
+
+load test [282000,1000]
+  load = 49185 ms
+  corpus = 75% 26582/35316
+  clean(stop,min,max) = 13377
+  data = 328 ms
+  classify 511/1000
+  (+)=261/0, (-)=433/0, (N)=306/0, vsi=1000/0
+  classify = 17519 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 67315 ms / 12403055 ms
+
+load test [283000,1000]
+  load = 46861 ms
+  corpus = 74% 22924/30848
+  clean(stop,min,max) = 11655
+  data = 282 ms
+  classify 511/1000
+  (+)=298/0, (-)=378/0, (N)=324/0, vsi=1000/0
+  classify = 17455 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 64898 ms / 12467953 ms
+
+load test [284000,1000]
+  load = 46535 ms
+  corpus = 75% 23854/31596
+  clean(stop,min,max) = 12059
+  data = 280 ms
+  classify 511/1000
+  (+)=364/0, (-)=367/0, (N)=269/0, vsi=1000/0
+  classify = 17473 ms
+  data = 1000
+  save to db = 280 ms
+  čas = 64569 ms / 12532523 ms
+
+load test [285000,1000]
+  load = 46894 ms
+  corpus = 74% 24404/32718
+  clean(stop,min,max) = 12370
+  data = 312 ms
+  classify 511/997
+  (+)=257/0, (-)=419/0, (N)=321/0, vsi=997/0
+  classify = 17424 ms
+  data = 997
+  save to db = 235 ms
+  čas = 64867 ms / 12597390 ms
+
+load test [286000,1000]
+  load = 47033 ms
+  corpus = 74% 24863/33535
+  clean(stop,min,max) = 12619
+  data = 298 ms
+  classify 511/998
+  (+)=285/0, (-)=418/0, (N)=295/0, vsi=998/0
+  classify = 17457 ms
+  data = 998
+  save to db = 391 ms
+  čas = 65194 ms / 12662585 ms
+
+load test [287000,1000]
+  load = 47143 ms
+  corpus = 74% 27552/37109
+  clean(stop,min,max) = 13843
+  data = 343 ms
+  classify 511/998
+  (+)=325/0, (-)=381/0, (N)=292/0, vsi=998/0
+  classify = 17549 ms
+  data = 998
+  save to db = 266 ms
+  čas = 65302 ms / 12727888 ms
+
+load test [288000,1000]
+  load = 47222 ms
+  corpus = 75% 29917/39790
+  clean(stop,min,max) = 15346
+  data = 359 ms
+  classify 511/999
+  (+)=182/0, (-)=509/0, (N)=308/0, vsi=999/0
+  classify = 17565 ms
+  data = 999
+  save to db = 282 ms
+  čas = 65429 ms / 12793317 ms
+
+load test [289000,1000]
+  load = 46582 ms
+  corpus = 74% 25053/33605
+  clean(stop,min,max) = 12823
+  data = 312 ms
+  classify 511/998
+  (+)=194/0, (-)=491/0, (N)=313/0, vsi=998/0
+  classify = 17455 ms
+  data = 998
+  save to db = 656 ms
+  čas = 65006 ms / 12858324 ms
+
+load test [290000,1000]
+  load = 47267 ms
+  corpus = 74% 28351/37898
+  clean(stop,min,max) = 14498
+  data = 345 ms
+  classify 511/998
+  (+)=276/0, (-)=417/0, (N)=305/0, vsi=998/0
+  classify = 17518 ms
+  data = 998
+  save to db = 266 ms
+  čas = 65398 ms / 12923722 ms
+
+load test [291000,1000]
+  load = 47079 ms
+  corpus = 73% 21156/28601
+  clean(stop,min,max) = 10770
+  data = 266 ms
+  classify 511/995
+  (+)=325/0, (-)=335/0, (N)=335/0, vsi=995/0
+  classify = 17331 ms
+  data = 995
+  save to db = 687 ms
+  čas = 65365 ms / 12989088 ms
+
+load test [292000,1000]
+  load = 47657 ms
+  corpus = 75% 22123/29495
+  clean(stop,min,max) = 11242
+  data = 282 ms
+  classify 511/999
+  (+)=323/0, (-)=375/0, (N)=301/0, vsi=999/0
+  classify = 17408 ms
+  data = 999
+  save to db = 298 ms
+  čas = 65647 ms / 13054735 ms
+
+load test [293000,1000]
+  load = 48921 ms
+  corpus = 73% 23232/31457
+  clean(stop,min,max) = 11902
+  data = 297 ms
+  classify 511/1000
+  (+)=328/0, (-)=374/0, (N)=298/0, vsi=1000/0
+  classify = 17472 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 67003 ms / 13121739 ms
+
+load test [294000,1000]
+  load = 48109 ms
+  corpus = 74% 21960/29570
+  clean(stop,min,max) = 11253
+  data = 282 ms
+  classify 511/1000
+  (+)=306/0, (-)=370/0, (N)=324/0, vsi=1000/0
+  classify = 17424 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 66082 ms / 13187822 ms
+
+load test [295000,1000]
+  load = 48236 ms
+  corpus = 74% 24430/32844
+  clean(stop,min,max) = 12539
+  data = 312 ms
+  classify 511/996
+  (+)=246/0, (-)=449/0, (N)=301/0, vsi=996/0
+  classify = 17408 ms
+  data = 996
+  save to db = 267 ms
+  čas = 66225 ms / 13254047 ms
+
+load test [296000,1000]
+  load = 47423 ms
+  corpus = 74% 27480/36906
+  clean(stop,min,max) = 14049
+  data = 313 ms
+  classify 511/999
+  (+)=249/0, (-)=453/0, (N)=297/0, vsi=999/0
+  classify = 17519 ms
+  data = 999
+  save to db = 282 ms
+  čas = 65552 ms / 13319600 ms
+
+load test [297000,1000]
+  load = 48843 ms
+  corpus = 75% 27200/36243
+  clean(stop,min,max) = 14184
+  data = 312 ms
+  classify 511/999
+  (+)=200/0, (-)=499/0, (N)=300/0, vsi=999/0
+  classify = 17503 ms
+  data = 999
+  save to db = 297 ms
+  čas = 66957 ms / 13386557 ms
+
+load test [298000,1000]
+  load = 48968 ms
+  corpus = 74% 29913/40059
+  clean(stop,min,max) = 14863
+  data = 375 ms
+  classify 511/1000
+  (+)=239/0, (-)=456/0, (N)=305/0, vsi=1000/0
+  classify = 17597 ms
+  data = 1000
+  save to db = 250 ms
+  čas = 67191 ms / 13453749 ms
+
+load test [299000,1000]
+  load = 49046 ms
+  corpus = 73% 18862/25605
+  clean(stop,min,max) = 9336
+  data = 250 ms
+  classify 511/996
+  (+)=407/0, (-)=302/0, (N)=287/0, vsi=996/0
+  classify = 17315 ms
+  data = 996
+  save to db = 250 ms
+  čas = 66862 ms / 13520611 ms
+
+load test [300000,1000]
+  load = 49047 ms
+  corpus = 74% 20151/27211
+  clean(stop,min,max) = 10104
+  data = 265 ms
+  classify 511/998
+  (+)=373/0, (-)=338/0, (N)=287/0, vsi=998/0
+  classify = 17378 ms
+  data = 998
+  save to db = 251 ms
+  čas = 66942 ms / 13587554 ms
+
+load test [301000,1000]
+  load = 48671 ms
+  corpus = 74% 27966/37568
+  clean(stop,min,max) = 14395
+  data = 344 ms
+  classify 511/999
+  (+)=254/0, (-)=450/0, (N)=295/0, vsi=999/0
+  classify = 17534 ms
+  data = 999
+  save to db = 733 ms
+  čas = 67284 ms / 13654838 ms
+
+load test [302000,1000]
+  load = 50154 ms
+  corpus = 75% 28526/37823
+  clean(stop,min,max) = 14804
+  data = 328 ms
+  classify 511/999
+  (+)=257/0, (-)=434/0, (N)=308/0, vsi=999/0
+  classify = 17518 ms
+  data = 999
+  save to db = 312 ms
+  čas = 68314 ms / 13723153 ms
+
+load test [303000,1000]
+  load = 49842 ms
+  corpus = 75% 29413/38737
+  clean(stop,min,max) = 15450
+  data = 344 ms
+  classify 511/1000
+  (+)=205/0, (-)=458/0, (N)=337/0, vsi=1000/0
+  classify = 17549 ms
+  data = 1000
+  save to db = 250 ms
+  čas = 67986 ms / 13791140 ms
+
+load test [304000,1000]
+  load = 50092 ms
+  corpus = 72% 20181/27843
+  clean(stop,min,max) = 10102
+  data = 266 ms
+  classify 511/1000
+  (+)=354/0, (-)=341/0, (N)=305/0, vsi=1000/0
+  classify = 17424 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 68049 ms / 13859190 ms
+
+load test [305000,1000]
+  load = 50730 ms
+  corpus = 72% 17792/24388
+  clean(stop,min,max) = 8981
+  data = 251 ms
+  classify 511/998
+  (+)=373/0, (-)=278/0, (N)=347/0, vsi=998/0
+  classify = 17330 ms
+  data = 998
+  save to db = 453 ms
+  čas = 68766 ms / 13927957 ms
+
+load test [306000,1000]
+  load = 50294 ms
+  corpus = 74% 28538/38293
+  clean(stop,min,max) = 14621
+  data = 343 ms
+  classify 511/999
+  (+)=174/0, (-)=502/0, (N)=323/0, vsi=999/0
+  classify = 17535 ms
+  data = 999
+  save to db = 266 ms
+  čas = 68439 ms / 13996396 ms
+
+load test [307000,1000]
+  load = 51011 ms
+  corpus = 74% 24569/33149
+  clean(stop,min,max) = 12534
+  data = 312 ms
+  classify 511/1000
+  (+)=203/0, (-)=442/0, (N)=355/0, vsi=1000/0
+  classify = 17488 ms
+  data = 1000
+  save to db = 280 ms
+  čas = 69093 ms / 14065490 ms
+
+load test [308000,1000]
+  load = 51013 ms
+  corpus = 73% 20968/28519
+  clean(stop,min,max) = 10479
+  data = 281 ms
+  classify 511/998
+  (+)=307/0, (-)=371/0, (N)=320/0, vsi=998/0
+  classify = 17378 ms
+  data = 998
+  save to db = 266 ms
+  čas = 68939 ms / 14134429 ms
+
+load test [309000,1000]
+  load = 50621 ms
+  corpus = 73% 21319/28869
+  clean(stop,min,max) = 10903
+  data = 282 ms
+  classify 511/999
+  (+)=370/0, (-)=314/0, (N)=315/0, vsi=999/0
+  classify = 17408 ms
+  data = 999
+  save to db = 297 ms
+  čas = 68610 ms / 14203039 ms
+
+load test [310000,1000]
+  load = 50450 ms
+  corpus = 73% 18759/25520
+  clean(stop,min,max) = 9493
+  data = 235 ms
+  classify 511/999
+  (+)=390/0, (-)=291/0, (N)=318/0, vsi=999/0
+  classify = 17362 ms
+  data = 999
+  save to db = 250 ms
+  čas = 68299 ms / 14271338 ms
+
+load test [311000,1000]
+  load = 50154 ms
+  corpus = 73% 21783/29545
+  clean(stop,min,max) = 11168
+  data = 266 ms
+  classify 511/1000
+  (+)=365/0, (-)=327/0, (N)=308/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 68127 ms / 14339466 ms
+
+load test [312000,1000]
+  load = 51526 ms
+  corpus = 74% 25247/34013
+  clean(stop,min,max) = 12875
+  data = 312 ms
+  classify 511/999
+  (+)=325/0, (-)=362/0, (N)=312/0, vsi=999/0
+  classify = 17488 ms
+  data = 999
+  save to db = 266 ms
+  čas = 69594 ms / 14409060 ms
+
+load test [313000,1000]
+  load = 51775 ms
+  corpus = 73% 27314/37230
+  clean(stop,min,max) = 13936
+  data = 328 ms
+  classify 511/999
+  (+)=189/0, (-)=504/0, (N)=306/0, vsi=999/0
+  classify = 17534 ms
+  data = 999
+  save to db = 266 ms
+  čas = 69905 ms / 14478966 ms
+
+load test [314000,1000]
+  load = 51993 ms
+  corpus = 73% 23855/32380
+  clean(stop,min,max) = 12263
+  data = 298 ms
+  classify 511/999
+  (+)=201/0, (-)=466/0, (N)=332/0, vsi=999/0
+  classify = 17455 ms
+  data = 999
+  save to db = 251 ms
+  čas = 69999 ms / 14548965 ms
+
+load test [315000,1000]
+  load = 52181 ms
+  corpus = 73% 17632/24113
+  clean(stop,min,max) = 8943
+  data = 219 ms
+  classify 511/998
+  (+)=305/0, (-)=347/0, (N)=346/0, vsi=998/0
+  classify = 17331 ms
+  data = 998
+  save to db = 641 ms
+  čas = 70373 ms / 14619338 ms
+
+load test [316000,1000]
+  load = 51199 ms
+  corpus = 73% 21100/28559
+  clean(stop,min,max) = 10624
+  data = 282 ms
+  classify 511/1000
+  (+)=232/0, (-)=434/0, (N)=334/0, vsi=1000/0
+  classify = 17408 ms
+  data = 1000
+  save to db = 297 ms
+  čas = 69187 ms / 14688526 ms
+
+load test [317000,1000]
+  load = 52244 ms
+  corpus = 73% 22226/30389
+  clean(stop,min,max) = 11077
+  data = 297 ms
+  classify 511/1000
+  (+)=191/0, (-)=491/0, (N)=318/0, vsi=1000/0
+  classify = 17456 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 70295 ms / 14758822 ms
+
+load test [318000,1000]
+  load = 51746 ms
+  corpus = 75% 24226/32232
+  clean(stop,min,max) = 12651
+  data = 282 ms
+  classify 511/1000
+  (+)=150/0, (-)=520/0, (N)=330/0, vsi=1000/0
+  classify = 17471 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 69766 ms / 14828588 ms
+
+load test [319000,1000]
+  load = 52213 ms
+  corpus = 74% 24803/33442
+  clean(stop,min,max) = 12779
+  data = 296 ms
+  classify 511/998
+  (+)=259/0, (-)=423/0, (N)=316/0, vsi=998/0
+  classify = 17472 ms
+  data = 998
+  save to db = 266 ms
+  čas = 70249 ms / 14898837 ms
+
+load test [320000,1000]
+  load = 51978 ms
+  corpus = 69% 11862/16994
+  clean(stop,min,max) = 5670
+  data = 187 ms
+  classify 511/992
+  (+)=320/0, (-)=319/0, (N)=353/0, vsi=992/0
+  classify = 17113 ms
+  data = 992
+  save to db = 250 ms
+  čas = 69530 ms / 14968368 ms
+
+load test [321000,1000]
+  load = 53694 ms
+  corpus = 73% 18524/25327
+  clean(stop,min,max) = 9363
+  data = 235 ms
+  classify 511/998
+  (+)=390/0, (-)=308/0, (N)=300/0, vsi=998/0
+  classify = 17348 ms
+  data = 998
+  save to db = 671 ms
+  čas = 71949 ms / 15040317 ms
+
+load test [322000,1000]
+  load = 52337 ms
+  corpus = 72% 18183/24968
+  clean(stop,min,max) = 9049
+  data = 235 ms
+  classify 511/996
+  (+)=249/0, (-)=417/0, (N)=330/0, vsi=996/0
+  classify = 17348 ms
+  data = 996
+  save to db = 343 ms
+  čas = 70264 ms / 15110582 ms
+
+load test [323000,1000]
+  load = 52759 ms
+  corpus = 73% 26796/36548
+  clean(stop,min,max) = 13330
+  data = 344 ms
+  classify 511/999
+  (+)=207/0, (-)=475/0, (N)=317/0, vsi=999/0
+  classify = 17534 ms
+  data = 999
+  save to db = 296 ms
+  čas = 70934 ms / 15181516 ms
+
+load test [324000,1000]
+  load = 52853 ms
+  corpus = 73% 17740/24179
+  clean(stop,min,max) = 8779
+  data = 234 ms
+  classify 511/999
+  (+)=349/0, (-)=353/0, (N)=297/0, vsi=999/0
+  classify = 17332 ms
+  data = 999
+  save to db = 296 ms
+  čas = 70717 ms / 15252233 ms
+
+load test [325000,1000]
+  load = 52791 ms
+  corpus = 73% 22444/30498
+  clean(stop,min,max) = 11418
+  data = 280 ms
+  classify 511/995
+  (+)=231/0, (-)=431/0, (N)=333/0, vsi=995/0
+  classify = 17379 ms
+  data = 995
+  save to db = 281 ms
+  čas = 70733 ms / 15322967 ms
+
+load test [326000,1000]
+  load = 52525 ms
+  corpus = 74% 22662/30579
+  clean(stop,min,max) = 11601
+  data = 282 ms
+  classify 511/999
+  (+)=225/0, (-)=458/0, (N)=316/0, vsi=999/0
+  classify = 17440 ms
+  data = 999
+  save to db = 280 ms
+  čas = 70529 ms / 15393496 ms
+
+load test [327000,1000]
+  load = 52962 ms
+  corpus = 75% 26245/34864
+  clean(stop,min,max) = 13254
+  data = 312 ms
+  classify 511/999
+  (+)=203/0, (-)=535/0, (N)=261/0, vsi=999/0
+  classify = 17518 ms
+  data = 999
+  save to db = 282 ms
+  čas = 71075 ms / 15464572 ms
+
+load test [328000,1000]
+  load = 53585 ms
+  corpus = 75% 27710/36897
+  clean(stop,min,max) = 14213
+  data = 328 ms
+  classify 511/999
+  (+)=171/0, (-)=490/0, (N)=338/0, vsi=999/0
+  classify = 17534 ms
+  data = 999
+  save to db = 687 ms
+  čas = 72137 ms / 15536709 ms
+
+load test [329000,1000]
+  load = 54115 ms
+  corpus = 74% 20572/27686
+  clean(stop,min,max) = 10237
+  data = 266 ms
+  classify 511/1000
+  (+)=316/0, (-)=366/0, (N)=318/0, vsi=1000/0
+  classify = 17410 ms
+  data = 1000
+  save to db = 312 ms
+  čas = 72105 ms / 15608814 ms
+
+load test [330000,1000]
+  load = 52868 ms
+  corpus = 73% 19881/27050
+  clean(stop,min,max) = 9970
+  data = 266 ms
+  classify 511/997
+  (+)=330/0, (-)=413/0, (N)=254/0, vsi=997/0
+  classify = 17361 ms
+  data = 997
+  save to db = 266 ms
+  čas = 70763 ms / 15679578 ms
+
+load test [331000,1000]
+  load = 55115 ms
+  corpus = 76% 33086/43364
+  clean(stop,min,max) = 17007
+  data = 375 ms
+  classify 511/999
+  (+)=193/0, (-)=501/0, (N)=305/0, vsi=999/0
+  classify = 17611 ms
+  data = 999
+  save to db = 282 ms
+  čas = 73384 ms / 15752962 ms
+
+load test [332000,1000]
+  load = 54708 ms
+  corpus = 73% 21135/28660
+  clean(stop,min,max) = 10547
+  data = 266 ms
+  classify 511/998
+  (+)=336/0, (-)=392/0, (N)=270/0, vsi=998/0
+  classify = 17394 ms
+  data = 998
+  save to db = 282 ms
+  čas = 72651 ms / 15825614 ms
+
+load test [333000,1000]
+  load = 54770 ms
+  corpus = 73% 20344/27570
+  clean(stop,min,max) = 10319
+  data = 251 ms
+  classify 511/999
+  (+)=292/0, (-)=393/0, (N)=314/0, vsi=999/0
+  classify = 17393 ms
+  data = 999
+  save to db = 360 ms
+  čas = 72776 ms / 15898390 ms
+
+load test [334000,1000]
+  load = 54536 ms
+  corpus = 74% 25666/34335
+  clean(stop,min,max) = 13216
+  data = 312 ms
+  classify 511/999
+  (+)=334/0, (-)=390/0, (N)=275/0, vsi=999/0
+  classify = 17488 ms
+  data = 999
+  save to db = 265 ms
+  čas = 72603 ms / 15970993 ms
+
+load test [335000,1000]
+  load = 54148 ms
+  corpus = 74% 22366/30221
+  clean(stop,min,max) = 11120
+  data = 282 ms
+  classify 511/1000
+  (+)=160/0, (-)=497/0, (N)=343/0, vsi=1000/0
+  classify = 17456 ms
+  data = 1000
+  save to db = 296 ms
+  čas = 72183 ms / 16043177 ms
+
+load test [336000,1000]
+  load = 55848 ms
+  corpus = 75% 37016/49239
+  clean(stop,min,max) = 19077
+  data = 437 ms
+  classify 511/1000
+  (+)=137/0, (-)=564/0, (N)=299/0, vsi=1000/0
+  classify = 17722 ms
+  data = 1000
+  save to db = 655 ms
+  čas = 74664 ms / 16117841 ms
+
+load test [337000,1000]
+  load = 55614 ms
+  corpus = 73% 20687/28183
+  clean(stop,min,max) = 10486
+  data = 266 ms
+  classify 511/999
+  (+)=179/0, (-)=467/0, (N)=353/0, vsi=999/0
+  classify = 17394 ms
+  data = 999
+  save to db = 266 ms
+  čas = 73555 ms / 16191397 ms
+
+load test [338000,1000]
+  load = 56003 ms
+  corpus = 74% 25223/34049
+  clean(stop,min,max) = 12953
+  data = 312 ms
+  classify 511/998
+  (+)=286/0, (-)=396/0, (N)=316/0, vsi=998/0
+  classify = 17472 ms
+  data = 998
+  save to db = 266 ms
+  čas = 74055 ms / 16265453 ms
+
+load test [339000,1000]
+  load = 56299 ms
+  corpus = 74% 19600/26471
+  clean(stop,min,max) = 9726
+  data = 250 ms
+  classify 511/998
+  (+)=436/0, (-)=303/0, (N)=259/0, vsi=998/0
+  classify = 17363 ms
+  data = 998
+  save to db = 280 ms
+  čas = 74194 ms / 16339648 ms
+
+load test [340000,1000]
+  load = 57003 ms
+  corpus = 74% 28072/37438
+  clean(stop,min,max) = 14243
+  data = 328 ms
+  classify 511/998
+  (+)=270/0, (-)=414/0, (N)=314/0, vsi=998/0
+  classify = 17518 ms
+  data = 998
+  save to db = 780 ms
+  čas = 75631 ms / 16415279 ms
+
+load test [341000,1000]
+  load = 55115 ms
+  corpus = 74% 20326/27413
+  clean(stop,min,max) = 10242
+  data = 266 ms
+  classify 511/998
+  (+)=203/0, (-)=486/0, (N)=309/0, vsi=998/0
+  classify = 17378 ms
+  data = 998
+  save to db = 266 ms
+  čas = 73026 ms / 16488305 ms
+
+load test [342000,1000]
+  load = 55755 ms
+  corpus = 74% 24035/32417
+  clean(stop,min,max) = 12091
+  data = 296 ms
+  classify 511/999
+  (+)=238/0, (-)=461/0, (N)=300/0, vsi=999/0
+  classify = 17471 ms
+  data = 999
+  save to db = 282 ms
+  čas = 73805 ms / 16562111 ms
+
+load test [343000,1000]
+  load = 55332 ms
+  corpus = 74% 24489/32893
+  clean(stop,min,max) = 12310
+  data = 298 ms
+  classify 511/1000
+  (+)=242/0, (-)=443/0, (N)=315/0, vsi=1000/0
+  classify = 17486 ms
+  data = 1000
+  save to db = 297 ms
+  čas = 73415 ms / 16635526 ms
+
+load test [344000,1000]
+  load = 55598 ms
+  corpus = 73% 26548/36033
+  clean(stop,min,max) = 13385
+  data = 344 ms
+  classify 511/998
+  (+)=267/0, (-)=435/0, (N)=296/0, vsi=998/0
+  classify = 17503 ms
+  data = 998
+  save to db = 266 ms
+  čas = 73712 ms / 16709239 ms
+
+load test [345000,1000]
+  load = 56112 ms
+  corpus = 75% 27174/35963
+  clean(stop,min,max) = 14110
+  data = 344 ms
+  classify 511/999
+  (+)=384/0, (-)=318/0, (N)=297/0, vsi=999/0
+  classify = 17503 ms
+  data = 999
+  save to db = 297 ms
+  čas = 74257 ms / 16783496 ms
+
+load test [346000,1000]
+  load = 55739 ms
+  corpus = 74% 22402/29962
+  clean(stop,min,max) = 11289
+  data = 250 ms
+  classify 511/1000
+  (+)=430/0, (-)=271/0, (N)=299/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 671 ms
+  čas = 74118 ms / 16857615 ms
+
+load test [347000,1000]
+  load = 57298 ms
+  corpus = 73% 28752/39341
+  clean(stop,min,max) = 14267
+  data = 359 ms
+  classify 511/999
+  (+)=285/0, (-)=411/0, (N)=303/0, vsi=999/0
+  classify = 17581 ms
+  data = 999
+  save to db = 282 ms
+  čas = 75521 ms / 16933136 ms
+
+load test [348000,1000]
+  load = 56783 ms
+  corpus = 74% 27149/36327
+  clean(stop,min,max) = 13938
+  data = 328 ms
+  classify 511/998
+  (+)=246/0, (-)=436/0, (N)=316/0, vsi=998/0
+  classify = 17487 ms
+  data = 998
+  save to db = 281 ms
+  čas = 74881 ms / 17008018 ms
+
+load test [349000,1000]
+  load = 56894 ms
+  corpus = 74% 22444/30300
+  clean(stop,min,max) = 11320
+  data = 280 ms
+  classify 511/996
+  (+)=316/0, (-)=380/0, (N)=300/0, vsi=996/0
+  classify = 17378 ms
+  data = 996
+  save to db = 312 ms
+  čas = 74866 ms / 17082884 ms
+
+load test [350000,1000]
+  load = 56565 ms
+  corpus = 75% 30588/40582
+  clean(stop,min,max) = 15604
+  data = 359 ms
+  classify 511/1000
+  (+)=130/0, (-)=587/0, (N)=283/0, vsi=1000/0
+  classify = 17597 ms
+  data = 1000
+  save to db = 655 ms
+  čas = 75194 ms / 17158078 ms
+
+load test [351000,1000]
+  load = 56674 ms
+  corpus = 74% 22380/30173
+  clean(stop,min,max) = 11471
+  data = 282 ms
+  classify 511/998
+  (+)=291/0, (-)=418/0, (N)=289/0, vsi=998/0
+  classify = 17409 ms
+  data = 998
+  save to db = 297 ms
+  čas = 74664 ms / 17232743 ms
+
+load test [352000,1000]
+  load = 56363 ms
+  corpus = 74% 24530/32884
+  clean(stop,min,max) = 12658
+  data = 296 ms
+  classify 511/1000
+  (+)=299/0, (-)=395/0, (N)=306/0, vsi=1000/0
+  classify = 17487 ms
+  data = 1000
+  save to db = 250 ms
+  čas = 74398 ms / 17307141 ms
+
+load test [353000,1000]
+  load = 56612 ms
+  corpus = 75% 32028/42675
+  clean(stop,min,max) = 16628
+  data = 360 ms
+  classify 511/995
+  (+)=161/0, (-)=510/0, (N)=324/0, vsi=995/0
+  classify = 17549 ms
+  data = 995
+  save to db = 266 ms
+  čas = 74789 ms / 17381930 ms
+
+load test [354000,1000]
+  load = 56221 ms
+  corpus = 75% 28211/37598
+  clean(stop,min,max) = 14283
+  data = 329 ms
+  classify 511/999
+  (+)=204/0, (-)=481/0, (N)=314/0, vsi=999/0
+  classify = 17549 ms
+  data = 999
+  save to db = 655 ms
+  čas = 74756 ms / 17456687 ms
+
+load test [355000,1000]
+  load = 58141 ms
+  corpus = 74% 28466/38180
+  clean(stop,min,max) = 14337
+  data = 375 ms
+  classify 511/996
+  (+)=207/0, (-)=492/0, (N)=297/0, vsi=996/0
+  classify = 17503 ms
+  data = 996
+  save to db = 266 ms
+  čas = 76286 ms / 17532973 ms
+
+load test [356000,1000]
+  load = 57440 ms
+  corpus = 73% 30023/40716
+  clean(stop,min,max) = 15658
+  data = 375 ms
+  classify 511/1000
+  (+)=139/0, (-)=530/0, (N)=331/0, vsi=1000/0
+  classify = 17596 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 75694 ms / 17608667 ms
+
+load test [357000,1000]
+  load = 57282 ms
+  corpus = 75% 27642/36783
+  clean(stop,min,max) = 14216
+  data = 312 ms
+  classify 511/998
+  (+)=164/0, (-)=538/0, (N)=296/0, vsi=998/0
+  classify = 17503 ms
+  data = 998
+  save to db = 282 ms
+  čas = 75381 ms / 17684048 ms
+
+load test [358000,1000]
+  load = 57736 ms
+  corpus = 74% 25025/33793
+  clean(stop,min,max) = 12378
+  data = 296 ms
+  classify 511/999
+  (+)=217/0, (-)=531/0, (N)=251/0, vsi=999/0
+  classify = 17503 ms
+  data = 999
+  save to db = 250 ms
+  čas = 75786 ms / 17759835 ms
+
+load test [359000,1000]
+  load = 57079 ms
+  corpus = 74% 25910/34944
+  clean(stop,min,max) = 12802
+  data = 328 ms
+  classify 511/1000
+  (+)=212/0, (-)=475/0, (N)=313/0, vsi=1000/0
+  classify = 17534 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 75225 ms / 17835060 ms
+
+load test [360000,1000]
+  load = 58094 ms
+  corpus = 73% 22960/31394
+  clean(stop,min,max) = 11782
+  data = 297 ms
+  classify 511/1000
+  (+)=194/0, (-)=488/0, (N)=318/0, vsi=1000/0
+  classify = 17457 ms
+  data = 1000
+  save to db = 280 ms
+  čas = 76129 ms / 17911190 ms
+
+load test [361000,1000]
+  load = 57875 ms
+  corpus = 74% 29990/40061
+  clean(stop,min,max) = 14944
+  data = 345 ms
+  classify 511/1000
+  (+)=198/0, (-)=499/0, (N)=303/0, vsi=1000/0
+  classify = 17597 ms
+  data = 1000
+  save to db = 671 ms
+  čas = 76489 ms / 17987679 ms
+
+load test [362000,1000]
+  load = 57674 ms
+  corpus = 74% 25990/34991
+  clean(stop,min,max) = 13089
+  data = 327 ms
+  classify 511/999
+  (+)=197/0, (-)=466/0, (N)=336/0, vsi=999/0
+  classify = 17503 ms
+  data = 999
+  save to db = 266 ms
+  čas = 75771 ms / 18063450 ms
+
+load test [363000,1000]
+  load = 59015 ms
+  corpus = 74% 28638/38580
+  clean(stop,min,max) = 14527
+  data = 358 ms
+  classify 511/999
+  (+)=156/0, (-)=534/0, (N)=309/0, vsi=999/0
+  classify = 17565 ms
+  data = 999
+  save to db = 266 ms
+  čas = 77206 ms / 18140657 ms
+
+load test [364000,1000]
+  load = 57813 ms
+  corpus = 74% 25199/33925
+  clean(stop,min,max) = 12682
+  data = 313 ms
+  classify 511/999
+  (+)=271/0, (-)=398/0, (N)=330/0, vsi=999/0
+  classify = 17471 ms
+  data = 999
+  save to db = 656 ms
+  čas = 76255 ms / 18216912 ms
+
+load test [365000,1000]
+  load = 59810 ms
+  corpus = 73% 27044/36736
+  clean(stop,min,max) = 14020
+  data = 344 ms
+  classify 511/997
+  (+)=220/0, (-)=414/0, (N)=363/0, vsi=997/0
+  classify = 17486 ms
+  data = 997
+  save to db = 312 ms
+  čas = 77954 ms / 18294867 ms
+
+load test [366000,1000]
+  load = 58375 ms
+  corpus = 72% 21988/30196
+  clean(stop,min,max) = 11172
+  data = 282 ms
+  classify 511/1000
+  (+)=177/0, (-)=504/0, (N)=319/0, vsi=1000/0
+  classify = 17456 ms
+  data = 1000
+  save to db = 406 ms
+  čas = 76520 ms / 18371388 ms
+
+load test [367000,1000]
+  load = 58796 ms
+  corpus = 72% 27263/37368
+  clean(stop,min,max) = 13632
+  data = 344 ms
+  classify 511/999
+  (+)=187/0, (-)=500/0, (N)=312/0, vsi=999/0
+  classify = 17534 ms
+  data = 999
+  save to db = 313 ms
+  čas = 76988 ms / 18448376 ms
+
+load test [368000,1000]
+  load = 58592 ms
+  corpus = 74% 32295/43295
+  clean(stop,min,max) = 16261
+  data = 391 ms
+  classify 511/997
+  (+)=221/0, (-)=483/0, (N)=293/0, vsi=997/0
+  classify = 17596 ms
+  data = 997
+  save to db = 282 ms
+  čas = 76862 ms / 18525239 ms
+
+load test [369000,1000]
+  load = 60075 ms
+  corpus = 74% 28399/38191
+  clean(stop,min,max) = 13958
+  data = 344 ms
+  classify 511/1000
+  (+)=197/0, (-)=531/0, (N)=272/0, vsi=1000/0
+  classify = 17565 ms
+  data = 1000
+  save to db = 655 ms
+  čas = 78641 ms / 18603881 ms
+
+load test [370000,1000]
+  load = 59497 ms
+  corpus = 74% 22362/30104
+  clean(stop,min,max) = 11334
+  data = 267 ms
+  classify 511/1000
+  (+)=189/0, (-)=521/0, (N)=290/0, vsi=1000/0
+  classify = 17440 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 77503 ms / 18681384 ms
+
+load test [371000,1000]
+  load = 61260 ms
+  corpus = 74% 30901/41581
+  clean(stop,min,max) = 15603
+  data = 375 ms
+  classify 511/1000
+  (+)=206/0, (-)=475/0, (N)=319/0, vsi=1000/0
+  classify = 17628 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 79546 ms / 18760930 ms
+
+load test [372000,1000]
+  load = 59842 ms
+  corpus = 73% 29690/40271
+  clean(stop,min,max) = 15015
+  data = 375 ms
+  classify 511/1000
+  (+)=239/0, (-)=429/0, (N)=332/0, vsi=1000/0
+  classify = 17596 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 78111 ms / 18839042 ms
+
+load test [373000,1000]
+  load = 60091 ms
+  corpus = 75% 31639/42059
+  clean(stop,min,max) = 16426
+  data = 375 ms
+  classify 511/999
+  (+)=205/0, (-)=462/0, (N)=332/0, vsi=999/0
+  classify = 17596 ms
+  data = 999
+  save to db = 282 ms
+  čas = 78345 ms / 18917387 ms
+
+load test [374000,1000]
+  load = 59809 ms
+  corpus = 72% 28073/38882
+  clean(stop,min,max) = 13858
+  data = 360 ms
+  classify 511/994
+  (+)=231/0, (-)=423/0, (N)=340/0, vsi=994/0
+  classify = 17487 ms
+  data = 994
+  save to db = 281 ms
+  čas = 77954 ms / 18995342 ms
+
+load test [375000,1000]
+  load = 59733 ms
+  corpus = 74% 32745/43837
+  clean(stop,min,max) = 16361
+  data = 391 ms
+  classify 511/998
+  (+)=239/0, (-)=463/0, (N)=296/0, vsi=998/0
+  classify = 17628 ms
+  data = 998
+  save to db = 250 ms
+  čas = 78002 ms / 19073344 ms
+
+load test [376000,1000]
+  load = 60980 ms
+  corpus = 74% 29537/39517
+  clean(stop,min,max) = 14691
+  data = 360 ms
+  classify 511/998
+  (+)=197/0, (-)=470/0, (N)=331/0, vsi=998/0
+  classify = 17549 ms
+  data = 998
+  save to db = 266 ms
+  čas = 79157 ms / 19152501 ms
+
+load test [377000,1000]
+  load = 60574 ms
+  corpus = 73% 26059/35529
+  clean(stop,min,max) = 13221
+  data = 328 ms
+  classify 511/999
+  (+)=222/0, (-)=478/0, (N)=299/0, vsi=999/0
+  classify = 17519 ms
+  data = 999
+  save to db = 250 ms
+  čas = 78672 ms / 19231174 ms
+
+load test [378000,1000]
+  load = 61213 ms
+  corpus = 73% 25552/34651
+  clean(stop,min,max) = 12584
+  data = 328 ms
+  classify 511/1000
+  (+)=228/0, (-)=462/0, (N)=310/0, vsi=1000/0
+  classify = 17519 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 79328 ms / 19310502 ms
+
+load test [379000,1000]
+  load = 60996 ms
+  corpus = 75% 32297/43035
+  clean(stop,min,max) = 16318
+  data = 375 ms
+  classify 511/1000
+  (+)=184/0, (-)=516/0, (N)=300/0, vsi=1000/0
+  classify = 17642 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 79296 ms / 19389799 ms
+
+load test [380000,1000]
+  load = 61792 ms
+  corpus = 74% 29561/39549
+  clean(stop,min,max) = 14807
+  data = 358 ms
+  classify 511/999
+  (+)=202/0, (-)=497/0, (N)=300/0, vsi=999/0
+  classify = 17565 ms
+  data = 999
+  save to db = 298 ms
+  čas = 80015 ms / 19469814 ms
+
+load test [381000,1000]
+  load = 60573 ms
+  corpus = 73% 21019/28771
+  clean(stop,min,max) = 10567
+  data = 282 ms
+  classify 511/1000
+  (+)=202/0, (-)=464/0, (N)=334/0, vsi=1000/0
+  classify = 17424 ms
+  data = 1000
+  save to db = 298 ms
+  čas = 78578 ms / 19548393 ms
+
+load test [382000,1000]
+  load = 61135 ms
+  corpus = 74% 30594/41206
+  clean(stop,min,max) = 15748
+  data = 375 ms
+  classify 511/999
+  (+)=220/0, (-)=430/0, (N)=349/0, vsi=999/0
+  classify = 17581 ms
+  data = 999
+  save to db = 296 ms
+  čas = 79389 ms / 19627782 ms
+
+load test [383000,1000]
+  load = 60981 ms
+  corpus = 75% 28276/37613
+  clean(stop,min,max) = 14462
+  data = 343 ms
+  classify 511/999
+  (+)=227/0, (-)=482/0, (N)=290/0, vsi=999/0
+  classify = 17535 ms
+  data = 999
+  save to db = 280 ms
+  čas = 79141 ms / 19706924 ms
+
+load test [384000,1000]
+  load = 62697 ms
+  corpus = 73% 21825/29510
+  clean(stop,min,max) = 11132
+  data = 282 ms
+  classify 511/1000
+  (+)=189/0, (-)=458/0, (N)=353/0, vsi=1000/0
+  classify = 17424 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 80670 ms / 19787594 ms
+
+load test [385000,1000]
+  load = 61728 ms
+  corpus = 73% 30059/40714
+  clean(stop,min,max) = 15004
+  data = 376 ms
+  classify 511/999
+  (+)=227/0, (-)=428/0, (N)=344/0, vsi=999/0
+  classify = 17596 ms
+  data = 999
+  save to db = 266 ms
+  čas = 79967 ms / 19867562 ms
+
+load test [386000,1000]
+  load = 63319 ms
+  corpus = 73% 23432/31887
+  clean(stop,min,max) = 11724
+  data = 298 ms
+  classify 511/1000
+  (+)=276/0, (-)=418/0, (N)=306/0, vsi=1000/0
+  classify = 17471 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 81355 ms / 19948917 ms
+
+load test [387000,1000]
+  load = 64194 ms
+  corpus = 74% 24196/32495
+  clean(stop,min,max) = 12356
+  data = 297 ms
+  classify 511/997
+  (+)=252/0, (-)=417/0, (N)=328/0, vsi=997/0
+  classify = 17425 ms
+  data = 997
+  save to db = 266 ms
+  čas = 82183 ms / 20031101 ms
+
+load test [388000,1000]
+  load = 62275 ms
+  corpus = 72% 16972/23565
+  clean(stop,min,max) = 8490
+  data = 234 ms
+  classify 511/1000
+  (+)=249/0, (-)=388/0, (N)=363/0, vsi=1000/0
+  classify = 17362 ms
+  data = 1000
+  save to db = 282 ms
+  čas = 80154 ms / 20111256 ms
+
+load test [389000,1000]
+  load = 62634 ms
+  corpus = 73% 24344/32908
+  clean(stop,min,max) = 12360
+  data = 296 ms
+  classify 511/1000
+  (+)=237/0, (-)=417/0, (N)=346/0, vsi=1000/0
+  classify = 17487 ms
+  data = 1000
+  save to db = 328 ms
+  čas = 80747 ms / 20192003 ms
+
+load test [390000,1000]
+  load = 62478 ms
+  corpus = 74% 29108/39293
+  clean(stop,min,max) = 14798
+  data = 359 ms
+  classify 511/1000
+  (+)=246/0, (-)=407/0, (N)=347/0, vsi=1000/0
+  classify = 17581 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 80685 ms / 20272689 ms
+
+load test [391000,1000]
+  load = 64053 ms
+  corpus = 74% 25980/34742
+  clean(stop,min,max) = 13132
+  data = 312 ms
+  classify 511/1000
+  (+)=201/0, (-)=482/0, (N)=317/0, vsi=1000/0
+  classify = 17518 ms
+  data = 1000
+  save to db = 266 ms
+  čas = 82151 ms / 20354841 ms
+
+load test [392000,1000]
+  load = 62571 ms
+  corpus = 75% 25675/34105
+  clean(stop,min,max) = 12700
+  data = 312 ms
+  classify 511/999
+  (+)=232/0, (-)=461/0, (N)=306/0, vsi=999/0
+  classify = 17487 ms
+  data = 999
+  save to db = 266 ms
+  čas = 80638 ms / 20435479 ms
+
+load test [393000,1000]
+  load = 63773 ms
+  corpus = 75% 30329/40157
+  clean(stop,min,max) = 15466
+  data = 343 ms
+  classify 511/997
+  (+)=173/0, (-)=539/0, (N)=285/0, vsi=997/0
+  classify = 17566 ms
+  data = 997
+  save to db = 281 ms
+  čas = 81964 ms / 20517444 ms
+
+load test [394000,1000]
+  load = 62726 ms
+  corpus = 75% 28891/38119
+  clean(stop,min,max) = 14743
+  data = 345 ms
+  classify 511/1000
+  (+)=207/0, (-)=467/0, (N)=326/0, vsi=1000/0
+  classify = 17549 ms
+  data = 1000
+  save to db = 422 ms
+  čas = 81044 ms / 20598488 ms
+
+load test [395000,1000]
+  load = 62602 ms
+  corpus = 72% 25705/35257
+  clean(stop,min,max) = 13003
+  data = 344 ms
+  classify 511/999
+  (+)=226/0, (-)=468/0, (N)=305/0, vsi=999/0
+  classify = 17502 ms
+  data = 999
+  save to db = 282 ms
+  čas = 80731 ms / 20679220 ms
+
+load test [396000,1000]
+  load = 63585 ms
+  corpus = 73% 20150/27460
+  clean(stop,min,max) = 10071
+  data = 266 ms
+  classify 511/999
+  (+)=281/0, (-)=381/0, (N)=337/0, vsi=999/0
+  classify = 17394 ms
+  data = 999
+  save to db = 266 ms
+  čas = 81512 ms / 20760732 ms
+
+load test [397000,1000]
+  load = 62649 ms
+  corpus = 73% 23231/31759
+  clean(stop,min,max) = 11903
+  data = 282 ms
+  classify 511/1000
+  (+)=268/0, (-)=400/0, (N)=332/0, vsi=1000/0
+  classify = 17457 ms
+  data = 1000
+  save to db = 265 ms
+  čas = 80669 ms / 20841401 ms
+
+load test [398000,1000]
+  load = 64397 ms
+  corpus = 71% 14099/19809
+  clean(stop,min,max) = 6967
+  data = 203 ms
+  classify 511/993
+  (+)=308/0, (-)=352/0, (N)=333/0, vsi=993/0
+  classify = 17190 ms
+  data = 993
+  save to db = 282 ms
+  čas = 82074 ms / 20923476 ms
+
+load test [399000,1000]
+  load = 63773 ms
+  corpus = 74% 18869/25478
+  clean(stop,min,max) = 9642
+  data = 250 ms
+  classify 511/998
+  (+)=309/0, (-)=366/0, (N)=323/0, vsi=998/0
+  classify = 17362 ms
+  data = 998
+  save to db = 282 ms
+  čas = 81667 ms / 21005144 ms
+
+load test [400000,1000]
+  load = 63382 ms
+  corpus = 73% 17748/23994
+  clean(stop,min,max) = 8941
+  data = 219 ms
+  classify 511/780
+  (+)=171/0, (-)=364/0, (N)=245/0, vsi=780/0
+  classify = 13634 ms
+  data = 780
+  save to db = 235 ms
+  čas = 77472 ms / 21082616 ms
+
+load test [401000,1000]
+  load = 64037 ms
+  corpus = 0% 0/0
+  data = 0 ms
+
+skupni čas = 21146654 ms
+OK

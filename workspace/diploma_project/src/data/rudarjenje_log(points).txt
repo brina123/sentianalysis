@@ -1,0 +1,20 @@
+rudarjenje
+normirano
+uporabniki.classify
+  load from csv count = 1786, čas = 0.063 s
+uporabniki.avg(plusi-minusi)
+  load from csv count = 893, čas = 0.031 s
+uporabniki.avg(ocena)
+  load from csv count = 893, čas = 0.063 s
+points
+uporabniki.points(3d)
+  save to csv count = 893, čas = 0.015 s
+  save to tab count = 893, čas = 0.000 s
+uporabniki.points(2d)xy
+  save to tab count = 893, čas = 0.031 s
+uporabniki.points(2d)xz
+  save to tab count = 893, čas = 0.016 s
+uporabniki.points(2d)yz
+  save to tab count = 893, čas = 0.016 s
+skupni čas = 0.298 s
+OK

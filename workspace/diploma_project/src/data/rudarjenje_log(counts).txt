@@ -1,0 +1,21 @@
+rudarjenje
+counts
+podkategorije.classify
+  load from db count = 42, čas = 40.918 s
+  save to csv count = 42, čas = 0.000 s
+uporabniki.filter
+  load from db count = 893, čas = 22.887 s
+uporabniki.classify
+  load from db count = 15821, čas = 22.668 s
+  save to csv count = 1786, čas = 0.000 s
+uporabniki.(plusi,minusi)
+  load from db count = 9930, čas = 23.011 s
+  save to csv count = 893, čas = 0.000 s
+uporabniki.avg(plusi-minusi)
+  load from db count = 9930, čas = 23.026 s
+  save to csv count = 893, čas = 0.000 s
+uporabniki.avg(ocena)
+  load from db count = 9930, čas = 40.873 s
+  save to csv count = 893, čas = 0.016 s
+skupni čas = 179.269 s
+OK
